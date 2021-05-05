@@ -47,7 +47,7 @@ const IndexPage: React.FC = () => {
 
   return (
     <Layout>
-      <div className="my-6 px-12 ">
+      <>
         <div className="mb-6">
           {allUniqueTags.map((tag: string) => {
             const tagActive = !!(
@@ -80,7 +80,7 @@ const IndexPage: React.FC = () => {
             )
           })}
         </div>
-      </div>
+      </>
     </Layout>
   )
 }
