@@ -12,7 +12,9 @@
     "gatsby-plugin-offline": "^4.4.0",
     "gatsby-plugin-react-helmet": "^4.4.0",
     "gatsby-plugin-sharp": "^3.4.0",
+    "gatsby-plugin-typescript": "^3.4.0",
     "gatsby-source-filesystem": "^3.4.0",
+    "gatsby-transformer-json": "^3.4.0",
     "gatsby-transformer-sharp": "^3.4.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -20,7 +22,17 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "@babel/core": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "autoprefixer": "^10.2.5",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-gatsby": "^1.4.0",
+    "gatsby-plugin-postcss": "^4.4.0",
+    "postcss": "^8.2.13",
+    "prettier": "2.2.1",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.2.4"
   },
   "keywords": [
     "gatsby"

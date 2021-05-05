@@ -1,0 +1,64 @@
+{
+  "tools": [
+    {
+      "name": "Awesome Devtools",
+      "description": "A collection of awesome devtools from around the internet",
+      "url": "https://awesomedevtools.com",
+      "tags": ["Awesome", "List", "Tools"]
+    },
+    {
+      "name": "Responsively",
+      "description": "A web browser that helps create responsive interfaces",
+      "url": "https://responsively.app/",
+      "tags": ["WebDev", "CSS", "Responsive Design"]
+    },
+    {
+      "name": "Undraw",
+      "description": "High quality SVG illustrations for your project",
+      "url": "https://undraw.co",
+      "tags": ["SVG", "Illustration", "Design"]
+    },
+    {
+      "name": "Adobe Stock",
+      "description": "Stock Photos from Adobe",
+      "url": "https://stock.adobe.com",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "MVP.css",
+      "description": "Classless CSS Framework for building MVP's",
+      "url": "https://andybrewer.github.io/mvp/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "TailwindCSS",
+      "description": "A utility-first css framework",
+      "url": "https://tailwindcss.com/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "BulmaCSS",
+      "description": "Another utility-first css framework",
+      "url": "https://bulma.io/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "Bootstrap",
+      "description": "One of the worlds most popular frontend frameworks",
+      "url": "https://getbootstrap.com/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "Hero Icons",
+      "description": "Free and Open Source SVG Icon set from the makers of TailwindCSS",
+      "url": "https://heroicons.com",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Bootstrap Icons",
+      "description": "SVG Icons from Bootstrap",
+      "url": "https://icons.getbootstrap.com/",
+      "tags": ["SVG", "Icons"]
+    }
+  ]
+}
