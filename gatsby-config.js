@@ -13,6 +13,14 @@ module.exports = {
         path: `${__dirname}/static`,
       },
     },
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "6",
+        matomoUrl: "https://stats.glvn.co",
+        siteUrl: "https://awesomedevtools.com",
+      },
+    },
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
