@@ -57,7 +57,7 @@ const IndexPage: React.FC = () => {
             return (
               <button
                 onClick={() => toggleTag(tag)}
-                className={`${color} font-bold text-white mx-1 my-1 px-2 py-1`}
+                className={`${color} font-bold text-white mx-1 my-1 px-2 py-1 rounded shadow`}
                 key={tag}
               >
                 {tag}

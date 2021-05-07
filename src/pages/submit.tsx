@@ -118,110 +118,119 @@ const SubmitPage = () => {
   }
 
   return (
-    <Layout
-      hideSubmitButton
-      headerText="Submit a Devtool"
-      customSubheader={() => (
-        <>
-          <p className="text-lg py-2">
-            Submit a DevTool to be featured in the list.
-          </p>
-          <Link className="text-blue-500 text-lg hover:underline" to="/">
-            Go Back
-          </Link>
-        </>
-      )}
-    >
-      <form className="hidden" data-netlify="true" />
-      {hasSubmitted ? (
-        <div className="bg-green-400 max-w-lg p-2 rounded-md shadow-md my-2">
-          <p className="font-bold text-white">Sucessfully Submitted Devtool</p>
-        </div>
-      ) : (
-        <>
-          {submitError && (
-            <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
-              <p className="font-bold text-white">
-                Error submitting devtool. Please try again later
-              </p>
-            </div>
-          )}
-
-          <div className="flex flex-col pb-6">
-            <label className="text-sm font-bold">Tool Name</label>
-            <input
-              className="shadow border rounded text-lg p-2 max-w-lg"
-              placeholder="Name of the tool"
-              value={form.name}
-              onChange={e => setName(e.target.value)}
-            />
-            {errors.nameError && (
-              <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
-                <p className="font-bold text-white">Please enter a name</p>
-              </div>
-            )}
-          </div>
-          <div className="flex flex-col py-6">
-            <label>Tool URL</label>
-            <input
-              value={form.url}
-              onChange={e => setUrl(e.target.value)}
-              className="shadow border rounded text-lg p-2 max-w-lg"
-              placeholder="URL of the Tool"
-            />
-            {errors.urlError && (
-              <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
-                <p className="font-bold text-white">Please enter a URL</p>
-              </div>
-            )}
-          </div>
-          <div className="flex flex-col py-6">
-            <label className="text-sm font-bold">Tool Description</label>
-            <p className="text-sm">
-              A short description for the tool (max 160 characters)
+    <>
+      <Layout
+        hideSubmitButton
+        headerText="Submit a Devtool"
+        customSubheader={() => (
+          <>
+            <p className="text-lg py-2">
+              Submit a DevTool to be featured in the list.
             </p>
-            <textarea
-              rows={4}
-              className="shadow border rounded text-lg p-2 max-w-lg"
-              placeholder="Short description of the tool"
-              value={form.description}
-              onChange={e => setDescription(e.target.value)}
-            />
-            {errors.descriptionError && (
+            <Link className="text-blue-500 text-lg hover:underline" to="/">
+              Go Back
+            </Link>
+          </>
+        )}
+      >
+        {hasSubmitted ? (
+          <div className="bg-green-400 max-w-lg p-2 rounded-md shadow-md my-2">
+            <p className="font-bold text-white">
+              Sucessfully Submitted Devtool
+            </p>
+          </div>
+        ) : (
+          <>
+            {submitError && (
               <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
                 <p className="font-bold text-white">
-                  Please enter a description
+                  Error submitting devtool. Please try again later
                 </p>
               </div>
             )}
-          </div>
-          <div className="flex flex-col py-6">
-            <label className="text-sm font-bold">Tool Tags</label>
-            <p className="text-sm">
-              Enter any associated tags for the tool (comma separated)
-            </p>
-            <input
-              className="shadow border rounded text-lg p-2 max-w-lg"
-              placeholder="Productivity, Design, WebDev, etc"
-              value={form.tags}
-              onChange={e => setTags(e.target.value)}
-            />
-          </div>
-          <button
-            onClick={handleSubmit}
-            className="bg-blue-500 text-white font-bold px-4 py-2 rounded shadow"
-          >
-            Submit
-          </button>
-          <button
-            onClick={handleClear}
-            className="ml-4 bg-red-500 text-white font-bold px-4 py-2 rounded shadow"
-          >
-            Clear
-          </button>
-        </>
-      )}
-    </Layout>
+            <div className="flex flex-col pb-6">
+              <label className="text-sm font-bold">Tool Name</label>
+              <input
+                className="shadow border rounded text-lg p-2 max-w-lg"
+                placeholder="Name of the tool"
+                value={form.name}
+                onChange={e => setName(e.target.value)}
+              />
+              {errors.nameError && (
+                <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
+                  <p className="font-bold text-white">Please enter a name</p>
+                </div>
+              )}
+            </div>
+            <div className="flex flex-col py-6">
+              <label>Tool URL</label>
+              <input
+                value={form.url}
+                onChange={e => setUrl(e.target.value)}
+                className="shadow border rounded text-lg p-2 max-w-lg"
+                placeholder="URL of the Tool"
+              />
+              {errors.urlError && (
+                <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
+                  <p className="font-bold text-white">Please enter a URL</p>
+                </div>
+              )}
+            </div>
+            <div className="flex flex-col py-6">
+              <label className="text-sm font-bold">Tool Description</label>
+              <p className="text-sm">
+                A short description for the tool (max 160 characters)
+              </p>
+              <textarea
+                rows={4}
+                className="shadow border rounded text-lg p-2 max-w-lg"
+                placeholder="Short description of the tool"
+                value={form.description}
+                onChange={e => setDescription(e.target.value)}
+              />
+              {errors.descriptionError && (
+                <div className="bg-red-400 max-w-lg p-2 rounded-md shadow-md my-2">
+                  <p className="font-bold text-white">
+                    Please enter a description
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className="flex flex-col py-6">
+              <label className="text-sm font-bold">Tool Tags</label>
+              <p className="text-sm">
+                Enter any associated tags for the tool (comma separated)
+              </p>
+              <input
+                className="shadow border rounded text-lg p-2 max-w-lg"
+                placeholder="Productivity, Design, WebDev, etc"
+                value={form.tags}
+                onChange={e => setTags(e.target.value)}
+              />
+            </div>
+            <button
+              onClick={handleSubmit}
+              className="bg-blue-500 text-white font-bold px-4 py-2 rounded shadow"
+            >
+              Submit
+            </button>
+            <button
+              onClick={handleClear}
+              className="ml-4 bg-red-500 text-white font-bold px-4 py-2 rounded shadow"
+            >
+              Clear
+            </button>
+          </>
+        )}
+      </Layout>
+      {/* For netlify to pick up the fields */}
+      <form name="Tool Submission From" data-netlify="true" className="hidden">
+        <input className="hidden" name="form-tool-name" />
+        <input className="hidden" name="form-tool-desc" />
+        <input className="hidden" name="form-tool-url" />
+        <input className="hidden" name="form-tool-tags" />
+      </form>
+    </>
   )
 }
 
