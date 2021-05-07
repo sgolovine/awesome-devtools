@@ -132,6 +132,7 @@ const SubmitPage = () => {
         </>
       )}
     >
+      <form className="hidden" data-netlify="true" />
       {hasSubmitted ? (
         <div className="bg-green-400 max-w-lg p-2 rounded-md shadow-md my-2">
           <p className="font-bold text-white">Sucessfully Submitted Devtool</p>
