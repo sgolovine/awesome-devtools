@@ -59,6 +59,342 @@
       "description": "SVG Icons from Bootstrap",
       "url": "https://icons.getbootstrap.com/",
       "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Coverr",
+      "description": "Free stock footage for your site",
+      "url": "https://coverr.co/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "MixKit",
+      "description": "Free assets for your next project",
+      "url": "https://mixkit.co/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Pexels",
+      "description": "The best free stock photos & videos shared by talented creators",
+      "url": "https://www.pexels.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Photo Creator",
+      "description": "Stock Photo Creator by Icons8",
+      "url": "https://icons8.com/creator",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "UnScreen",
+      "description": "Remove video backgrounds",
+      "url": "https://www.unscreen.com/",
+      "tags": ["Utilities", "Stock Photos"]
+    },
+    {
+      "name": "RemoveBg",
+      "description": "Remove backgrounds from photos",
+      "url": "https://www.remove.bg/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "Generated Photos",
+      "description": "Generated faces using AI",
+      "url": "https://generated.photos/faces",
+      "tags": ["Utilities", "Stock Photos", "AI"]
+    },
+    {
+      "name": "DuoTone by ShapeFactory",
+      "description": "Convert any image to a DuoTone",
+      "url": "https://duotone.shapefactory.co",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "Open Peeps",
+      "description": "A hand-drawn illustration library.",
+      "url": "https://www.openpeeps.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Smash Illustrations",
+      "description": "Awesome illustration constructor with colorful and trendy characters",
+      "url": "https://usesmash.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Open Doodles",
+      "description": "A Free Set of Open-Source Illustrations!",
+      "url": "https://www.opendoodles.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Control",
+      "description": "Large library of customizable illustrations",
+      "url": "https://control.rocks/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Illustrations from Icons8",
+      "description": "Free Illustrations from Icons8",
+      "url": "https://icons8.com/illustrations",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "avataaars generator",
+      "description": "Free Avatar Generator",
+      "url": "https://getavataaars.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Faux Code Generator",
+      "description": "Turn real code into faux code",
+      "url": "http://knutsynstad.com/fauxcode/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Parametric Color Mixer",
+      "description": "A parametric color mixer",
+      "url": "https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "CSS Gradient",
+      "description": "Generate CSS Gradients",
+      "url": "https://cssgradient.io/",
+      "tags": ["Utilities", "Colors", "CSS"]
+    },
+    {
+      "name": "Colorsinspo",
+      "description": "Thousands of beautiful color palettes you can use it directly by one click.",
+      "url": "https://colorsinspo.com/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "ColorHexa",
+      "description": "Get information about any color.",
+      "url": "https://www.colorhexa.com/index.php",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "ColorSpace",
+      "description": "Generate a pallette based on a single color",
+      "url": "https://mycolor.space/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Palettte App",
+      "description": "Generate color pallettes",
+      "url": "https://palettte.app/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Colorable",
+      "description": "Quickly see the contrast between background and text color",
+      "url": "https://colorable.jxnblk.com/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Freebiesbug",
+      "description": "Handpicked free fonts and typefaces for web and graphics designers",
+      "url": "https://freebiesbug.com/free-fonts/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "FontsArena",
+      "description": "Curated typography website with a focus on contemporary typography and high quality free fonts",
+      "url": "https://fontsarena.com/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "BeFonts",
+      "description": "Free Fonts for Designers",
+      "url": "https://befonts.com/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "FontSquirrel",
+      "description": "Free Font Utopia from FontSquirrel",
+      "url": "https://www.fontsquirrel.com/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "FontJoy",
+      "description": "Font pairing made simple",
+      "url": "https://fontjoy.com/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Type Scale",
+      "description": "Typeface playground. Experiment with fonts.",
+      "url": "https://type-scale.com/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Smooth Shadow",
+      "description": "Generate smooth CSS shadows",
+      "url": "https://shadows.brumm.af/",
+      "tags": ["CSS"]
+    },
+    {
+      "name": "CSS Effects",
+      "description": "Animated CSS Snippets",
+      "url": "https://emilkowalski.github.io/css-effects-snippets/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "CSS Separator Generator",
+      "description": "Generate CSS section separators",
+      "url": "https://wweb.dev/resources/css-separator-generator/",
+      "tags": ["CSS"]
+    },
+    {
+      "name": "Animista",
+      "description": "CSS Animations on Demand",
+      "url": "https://animista.net/play/basic/flip-scale-2",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Draggable by Shopify",
+      "description": "A lightweight, responsive, modern drag & drop library",
+      "url": "https://shopify.github.io/draggable/",
+      "tags": ["WebDev", "Javascript"]
+    },
+    {
+      "name": "Block Reveal Effects",
+      "description": "CSS Block Reveal Effects",
+      "url": "https://tympanus.net/Development/BlockRevealers/index.html",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "IconStore",
+      "description": "Free Icons by First-Class Designers",
+      "url": "https://iconstore.co/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "CSS Icons",
+      "description": "700+ CSS, SVG and Figma icons",
+      "url": "https://css.gg/",
+      "tags": ["Icons", "CSS", "SVG"]
+    },
+    {
+      "name": "Icon Transition Generator",
+      "description": "Create a snappy transition between two icons and download the SVG code",
+      "url": "https://nucleoapp.com/tool/icon-transition",
+      "tags": ["Icons", "Utilities", "SVG", "Animation"]
+    },
+    {
+      "name": "Tilda Icons",
+      "description": "Free icons for landing pages",
+      "url": "https://tilda.cc/free-icons/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Ikonate",
+      "description": "Ikonate are fully customisable & accessible, well-optimised vector icons.",
+      "url": "https://ikonate.com/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Eva Icons",
+      "description": "Pack of more than 480 beautifully crafted Open Source icons for common actions and items.",
+      "url": "https://akveo.github.io/eva-icons/#/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Animated Icons from Icons8",
+      "description": "900+ animated icons to make your projects exceptional",
+      "url": "https://icons8.com/animated-icons",
+      "tags": ["Animation", "SVG", "Icons"]
+    },
+    {
+      "name": "Pattern.css",
+      "description": "Free CSS Patterns",
+      "url": "https://bansal.io/pattern-css",
+      "tags": ["Patterns", "CSS"]
+    },
+    {
+      "name": "GetWaves",
+      "description": "Generate waves for your website",
+      "url": "https://getwaves.io/",
+      "tags": ["Patterns", "CSS"]
+    },
+    {
+      "name": "Blob Maker",
+      "description": "Free generative design tool to help you quickly create random, unique, and organic-looking SVG shapes",
+      "url": "https://www.blobmaker.app/",
+      "tags": ["Patterns", "CSS"]
+    },
+    {
+      "name": "RadLines",
+      "description": "Generate and Download Generated SVG Images",
+      "url": "https://msurguy.github.io/rad-lines/",
+      "tags": ["Patterns", "SVG"]
+    },
+    {
+      "name": "Paaatterns",
+      "description": "Free collection of beautiful patterns for all vector formats",
+      "url": "https://products.ls.graphics/paaatterns/",
+      "tags": ["SVG", "Icons", "Patterns", "CSS"]
+    },
+    {
+      "name": "Scribbbles",
+      "description": "100+ vectorized scribbbles to spice up your design projects.",
+      "url": "https://www.scribbbles.design/",
+      "tags": ["Illustration", "Icons", "Patterns"]
+    },
+    {
+      "name": "Nucleo",
+      "description": "Icon management, solved",
+      "url": "https://nucleoapp.com/",
+      "tags": ["Utilities", "Icons"]
+    },
+    {
+      "name": "Checklist Design",
+      "description": "A collection of the best design practices.",
+      "url": "https://www.checklist.design/",
+      "tags": ["Design", "Utilities"]
+    },
+    {
+      "name": "Design Systems Gallery",
+      "description": "A comprehensive and curated list of design systems, style guides and pattern libraries that you can use for inspiration.",
+      "url": "https://designsystemsrepo.com/design-systems-recent/",
+      "tags": ["Utilities", "Design"]
+    },
+    {
+      "name": "CSS Peeper",
+      "description": "Smart CSS viewer tailored for Designers.",
+      "url": "https://csspeeper.com/",
+      "tags": ["Design", "Browser Extension", "CSS", "WebDev"]
+    },
+    {
+      "name": "Image Upscaler",
+      "description": "AI Image Upscaler from Icons8",
+      "url": "https://icons8.com/upscaler",
+      "tags": ["AI", "Stock Photos", "Utilities"]
+    },
+    {
+      "name": "Font in Logo",
+      "description": "Find fonts used in logos",
+      "url": "https://www.fontinlogo.com/logos",
+      "tags": ["Icons", "Utilities"]
+    },
+    {
+      "name": "Sneakpeekit",
+      "description": "Printable sketch sheet templates for web and mobile design",
+      "url": "https://sneakpeekit.com/",
+      "tags": ["Design", "Utilities"]
+    },
+    {
+      "name": "Screely",
+      "description": "Instantly Turn a Screenshot into a Browser Mockup",
+      "url": "https://www.screely.com/",
+      "tags": ["Utilities", "Illustration"]
+    },
+    {
+      "name": "Favicomatic",
+      "description": "Favicon Generator",
+      "url": "https://favicomatic.com/",
+      "tags": ["WebDev", "Design", "Utilities"]
     }
   ]
 }

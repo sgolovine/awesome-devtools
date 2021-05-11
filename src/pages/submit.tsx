@@ -78,16 +78,6 @@ const SubmitPage = () => {
     if (!formValid) {
       return
     }
-    // console.log(`
-    // Tool Submission Mock:
-    // ---------------------
-    // Tool Name: ${form.name}
-    // Tool URL: ${form.url}
-
-    // Tool Description: ${form.description}
-
-    // Tool Tags: ${form.tags.split(",")}
-    // `)
     submitForm({
       toolName: form.name,
       toolUrl: form.url,
@@ -223,13 +213,6 @@ const SubmitPage = () => {
           </>
         )}
       </Layout>
-      {/* For netlify to pick up the fields */}
-      <form name="Tool Submission From" data-netlify="true" className="hidden">
-        <input className="hidden" name="form-tool-name" />
-        <input className="hidden" name="form-tool-desc" />
-        <input className="hidden" name="form-tool-url" />
-        <input className="hidden" name="form-tool-tags" />
-      </form>
     </>
   )
 }
