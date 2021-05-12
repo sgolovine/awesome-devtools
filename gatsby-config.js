@@ -21,6 +21,7 @@ module.exports = {
         siteUrl: "https://awesomedevtools.com",
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,

@@ -18,6 +18,8 @@ const IndexPage: React.FC = () => {
     }
   `)
 
+  const subheader = `A collection of awesome devtools and developer resources from around the internet. Awesome devtools has ${query.staticJson.tools.length} tools in our database.`
+
   const [activeTags, setActiveTags] = useState<string[]>([])
 
   const toggleTag = (tag: string) => {
@@ -46,7 +48,7 @@ const IndexPage: React.FC = () => {
       : tools
 
   return (
-    <Layout>
+    <Layout subheaderText={subheader}>
       <>
         <div className="mb-6">
           {allUniqueTags.map((tag: string) => {

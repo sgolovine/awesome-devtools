@@ -1,5 +1,5 @@
 import React from "react"
-import { navigate } from "gatsby"
+import { graphql, navigate, useStaticQuery } from "gatsby"
 interface Props {
   headerText: string
   subheaderText: string
@@ -12,25 +12,27 @@ const Header: React.FC<Props> = ({
   headerText,
   subheaderText,
   customSubheader,
-}) => (
-  <div className="flex flex-col md:flex-row justify-between items-center sm:px-2 md:px-12">
-    <div className="pt-12">
-      <h1 className="text-5xl font-bold">{headerText}</h1>
-      {customSubheader ? (
-        customSubheader()
-      ) : (
-        <p className="text-lg py-2">{subheaderText}</p>
+}) => {
+  return (
+    <div className="flex flex-col md:flex-row justify-between items-center sm:px-2 md:px-12">
+      <div className="pt-12">
+        <h1 className="text-5xl font-bold">{headerText}</h1>
+        {customSubheader ? (
+          customSubheader()
+        ) : (
+          <p className="text-lg py-2 max-w-lg">{subheaderText}</p>
+        )}
+      </div>
+      {!hideSubmitButton && (
+        <button
+          onClick={() => navigate("/submit")}
+          className="p-4 rounded shadow bg-blue-500 text-white font-bold text-lg"
+        >
+          Submit a Devtool
+        </button>
       )}
     </div>
-    {!hideSubmitButton && (
-      <button
-        onClick={() => navigate("/submit")}
-        className="p-4 rounded shadow bg-blue-500 text-white font-bold text-lg"
-      >
-        Submit a Devtool
-      </button>
-    )}
-  </div>
-)
+  )
+}
 
 export default Header
