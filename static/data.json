@@ -85,6 +85,12 @@
       "tags": ["Stock Photos"]
     },
     {
+      "name": "Vector Creator",
+      "description": "Vector Creator by Icons8",
+      "url": "https://icons8.com/vector-creator",
+      "tags": ["SVG"]
+    },
+    {
       "name": "UnScreen",
       "description": "Remove video backgrounds",
       "url": "https://www.unscreen.com/",
@@ -106,7 +112,7 @@
       "name": "DuoTone by ShapeFactory",
       "description": "Convert any image to a DuoTone",
       "url": "https://duotone.shapefactory.co",
-      "tags": ["Utilities"]
+      "tags": ["Utilities", "CSS", "Duotone"]
     },
     {
       "name": "Open Peeps",
@@ -160,7 +166,7 @@
       "name": "CSS Gradient",
       "description": "Generate CSS Gradients",
       "url": "https://cssgradient.io/",
-      "tags": ["Utilities", "Colors", "CSS"]
+      "tags": ["Utilities", "Colors", "CSS", "Gradients"]
     },
     {
       "name": "Colorsinspo",
@@ -395,6 +401,690 @@
       "description": "Favicon Generator",
       "url": "https://favicomatic.com/",
       "tags": ["WebDev", "Design", "Utilities"]
+    },
+    {
+      "name": "Pastel",
+      "description": "Review and comment on websites live. One click to share with clients and teammates.",
+      "url": "https://usepastel.com/",
+      "tags": ["Utilities", "WebDev", "Collaboration", "Productivity"]
+    },
+    {
+      "name": "Whimsical",
+      "description": "Unified suite of collaboration tools. Product specs, wikis, brainstorming, ideation and more.",
+      "url": "https://whimsical.com/",
+      "tags": ["Collaboration"]
+    },
+    {
+      "name": "HANDZ",
+      "description": "3D Hand Illustrations",
+      "url": "https://www.handz.design/",
+      "tags": ["Design", "Illustration"]
+    },
+    {
+      "name": "Toy Faces Library",
+      "description": "Fun diverse library of 3D avatars for design mockups and commercial projects. ",
+      "url": "https://amritpaldesign.com/toy-faces",
+      "tags": ["Design", "Illustration"]
+    },
+    {
+      "name": "Blush",
+      "description": "Create and customize illustrations",
+      "url": "https://blush.design/",
+      "tags": ["Illustration", "Design"]
+    },
+    {
+      "name": "Vector Illustrations",
+      "description": "Vector Illustrations by StreamlineHQ",
+      "url": "https://lab.streamlinehq.com/",
+      "tags": ["SVG", "Illustration"]
+    },
+    {
+      "name": "Pixabay",
+      "description": "Stunning free images & royalty free stock",
+      "url": "https://pixabay.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Magdeleine",
+      "description": "Hand-picked free photos for your inspiration",
+      "url": "https://magdeleine.co/browse/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Burst by Shopify",
+      "description": "Free stock photos for websites and commercial use",
+      "url": "https://burst.shopify.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "ReShot",
+      "description": "Free Stock Photos",
+      "url": "https://www.reshot.com/",
+      "tags": []
+    },
+    {
+      "name": "Gratisography",
+      "description": "High Resolution Free Stock Pictures",
+      "url": "https://gratisography.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "ISO Republic",
+      "description": "Thousands of Free High-Resolution CC0 Photos and Videos",
+      "url": "https://isorepublic.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Mazwai",
+      "description": "Hand picked stock video footage",
+      "url": "https://mazwai.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Colorize",
+      "description": "Use AI technology to restore old photos automatically",
+      "url": "https://imagecolorizer.com/",
+      "tags": ["Utilities", "Stock Photos"]
+    },
+    {
+      "name": "Beautiful Web Type",
+      "description": "Guide to Only the Best Open-Source Typefaces",
+      "url": "https://beautifulwebtype.com/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "Font Fabric",
+      "description": "Free fonts from Font Fabric",
+      "url": "https://www.fontfabric.com/free-fonts/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Font Library",
+      "description": "Free fonts from Font Library",
+      "url": "https://fontlibrary.org/en",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "100 Days of Fonts",
+      "description": "100 Days of Fonts",
+      "url": "http://100daysoffonts.com/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "1001 Fonts",
+      "description": "New & Fresh Fonts",
+      "url": "https://www.1001fonts.com/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Essentials Icon Kit",
+      "description": "Essentials, an icon font by SmplKit.",
+      "url": "https://www.smplkit.com/",
+      "tags": ["Typography", "Fonts", "Icons"]
+    },
+    {
+      "name": "Free Icons",
+      "description": "266 FREE responsive icons in 3 sizes (16/20/24px)",
+      "url": "https://gumroad.com/l/freeicons",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Material Icon Library",
+      "description": "Free Collection of 1000+ Material Design Icons in 3 Styles",
+      "url": "https://icons.pixsellz.io/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "IconScout",
+      "description": "Over 3 Million+ Design Assets ",
+      "url": "https://iconscout.com/",
+      "tags": ["Design", "Icons", "SVG"]
+    },
+    {
+      "name": "Tabler Icons",
+      "description": "A set of over 1250 free MIT-licensed high-quality SVG icons",
+      "url": "https://github.com/tabler/tabler-icons",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Feather Icons",
+      "description": "Beautiful open source SVG icons",
+      "url": "https://feathericons.com/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "HexColor - Get Color from Image",
+      "description": "Get a dominant color of an image",
+      "url": "https://hexcolor.co/image-to-colors",
+      "tags": ["Utilities", "Colors"]
+    },
+    {
+      "name": "Happy Hues",
+      "description": "Curated colors in context",
+      "url": "https://www.happyhues.co/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Piggment",
+      "description": "The gradient you have always wanted.",
+      "url": "https://piggment.co/",
+      "tags": ["Illustration", "Colors", "Gradients"]
+    },
+    {
+      "name": "Coolors",
+      "description": "Generate random color pallettes",
+      "url": "https://coolors.co/",
+      "tags": ["Colors", "Design"]
+    },
+    {
+      "name": "ColorBox",
+      "description": "Color pallette builder",
+      "url": "https://colorbox.io/",
+      "tags": ["Colors", "Utilities"]
+    },
+    {
+      "name": "Picular",
+      "description": "Search for colors by anything",
+      "url": "https://picular.co/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Custom Shape Dividers",
+      "description": "Shape divider generator",
+      "url": "https://www.shapedivider.app/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Trianglify.io",
+      "description": "Low poly pattern generator",
+      "url": "https://trianglify.io/",
+      "tags": ["Patterns", "Colors"]
+    },
+    {
+      "name": "Free SVG Maps",
+      "description": "Free SVG maps of countries",
+      "url": "https://www.amcharts.com/svg-maps/",
+      "tags": ["SVG", "Illustration"]
+    },
+    {
+      "name": "Vector Logo World",
+      "description": "Download Vector Logos for Brands",
+      "url": "https://worldvectorlogo.com/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Logolix",
+      "description": "Free Logo Designs for Your Projects",
+      "url": "http://logolix.com/",
+      "tags": ["Icons", "Illustration", "SVG"]
+    },
+    {
+      "name": "Webframe",
+      "description": "Beautiful web app screenshots",
+      "url": "https://webframe.xyz/",
+      "tags": ["Inspiration", "WebDev"]
+    },
+    {
+      "name": "SaaS Landing Page",
+      "description": "SaaS landing page examples",
+      "url": "https://saaslandingpage.com/",
+      "tags": ["Inspiration", "WebDev"]
+    },
+    {
+      "name": "Nicely Done",
+      "description": "Inspiration library of design patterns examples from real products",
+      "url": "https://nicelydone.club/",
+      "tags": ["Inspiration", "WebDev", "Design"]
+    },
+    {
+      "name": "UI Design Daily",
+      "description": "Weekly Free UI resources right to your inbox",
+      "url": "https://www.uidesigndaily.com/",
+      "tags": ["Inspiration", "WebDev", "Design"]
+    },
+    {
+      "name": "Mobbin Design",
+      "description": "https://mobbin.design/",
+      "url": "Discover the latest iOS UI design patterns",
+      "tags": ["Mobile Development", "iOS", "Inspiration", "Design"]
+    },
+    {
+      "name": "UI Garage",
+      "description": "Daily handpicked UI inspiration & patterns",
+      "url": "https://uigarage.net/",
+      "tags": ["Mobile Development", "Inspiration", "WebDev", "Design"]
+    },
+    {
+      "name": "Resizing App",
+      "description": "Resize Your Images Online",
+      "url": "https://resizing.app/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "Tiny PNG",
+      "description": "Smart PNG and JPEG compression",
+      "url": "https://tinypng.com/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "CSS Filters",
+      "description": "Generate CSS filters for your images",
+      "url": "https://www.cssfilters.co/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Filter Generator",
+      "description": "Generate photo filters with CSS",
+      "url": "https://www.cssfiltergenerator.com/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Media Query Generator by SimpleCSS",
+      "description": "Quickly get media queries for popular devices",
+      "url": "https://simplecss.eu/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS3 Media Query Generator",
+      "description": "Generate Media Queries",
+      "url": "http://giona.net/tools/css3-mediaquery-generator/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Loader Gallery",
+      "description": "customize and make your own unique loader!",
+      "url": "https://loading.io/spinner/",
+      "tags": ["Animation", "CSS", "SVG"]
+    },
+    {
+      "name": "SpinKit",
+      "description": "Simple CSS Spinners",
+      "url": "https://tobiasahlin.com/spinkit/",
+      "tags": ["Animation", "CSS"]
+    },
+    {
+      "name": "Font Generator",
+      "description": "Generate unique font pairings from Google Fonts",
+      "url": "https://brandmark.io/font-generator/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "MixFont",
+      "description": "Mixfont is a fun and simple way to discover and visualize new fonts.",
+      "url": "https://www.mixfont.com/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "Bungee",
+      "description": "Fonts for multi-color and vertical typography",
+      "url": "https://djr.com/bungee/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "Random Material Pallette Generator",
+      "description": "https://www.threebu.it/random-material-palette/",
+      "url": "https://www.threebu.it/random-material-palette/",
+      "tags": ["Colors", "Gradients", "Utilities"]
+    },
+    {
+      "name": "CSS Box Shadow Examples",
+      "description": "Beautiful CSS box-shadow examples",
+      "url": "https://getcssscan.com/css-box-shadow-examples",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS3 Studio",
+      "description": "CSS Box Shadow Generator",
+      "url": "http://css3studio.com/page-css3/css-box-shadow.php",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Enjoy CSS",
+      "description": "Advanced CSS3 Generator",
+      "url": "https://enjoycss.com/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Bud",
+      "description": "CSS box shadow generator",
+      "url": "https://cssbud.com/css-generator/css-box-shadow-generator/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Generator by Webcode.tools",
+      "description": "Generate common CSS snippets",
+      "url": "https://webcode.tools/generators/css",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "JSON LD Generator by Webcode.tools",
+      "description": "Generate JSON LD schema for your site",
+      "url": "https://webcode.tools/generators/json-ld",
+      "tags": ["SEO", "Meta", "WebDev"]
+    },
+    {
+      "name": "Meta Tag Generator by Webcode.tools",
+      "description": "Generate meta tags for your head",
+      "url": "https://webcode.tools/generators/meta-tags",
+      "tags": ["SEO", "Meta", "WebDev"]
+    },
+    {
+      "name": "Free Meta Tag Generator",
+      "description": "Meta tag generator",
+      "url": "https://www.seoptimer.com/meta-tag-generator",
+      "tags": ["SEO", "Meta"]
+    },
+    {
+      "name": "SEO Meta Tag Generator",
+      "description": "Meta tag generator",
+      "url": "https://hallanalysis.com/seo-meta-tag-generator/",
+      "tags": ["SEO", "Meta"]
+    },
+    {
+      "name": "Favicon Maker",
+      "description": "Free Favicon Generator from Formito",
+      "url": "https://formito.com/tools/favicon",
+      "tags": ["WebDev", "Logo", "SVG", "Meta"]
+    },
+    {
+      "name": "Typography Logo Maker",
+      "description": "Free logo generator (text only) from Formito",
+      "url": "https://formito.com/tools/logo",
+      "tags": ["WebDev", "Logo", "Typography"]
+    },
+    {
+      "name": "Favicon.io",
+      "description": "The only favicon generator you need for your next project.",
+      "url": "https://favicon.io/",
+      "tags": ["WebDev", "Logo"]
+    },
+    {
+      "name": "Favicon and App Icon Generator",
+      "description": "Generate Favicons and App Icons for your site",
+      "url": "https://www.favicon-generator.org/",
+      "tags": ["WebDev", "Logo", "Icons"]
+    },
+    {
+      "name": "Profile Pic Maker",
+      "description": "Make an awesome profile picture from any photo",
+      "url": "https://pfpmaker.com/",
+      "tags": ["Profile Picture", "WebDev", "Stock Photos"]
+    },
+    {
+      "name": "Neumorphism.io",
+      "description": "Generate Soft-UI CSS code",
+      "url": "https://neumorphism.io/#e0e0e0",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "neumorphic.design",
+      "description": "Create neumorphic shapes easily with this generator",
+      "url": "https://neumorphic.design/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Duotone",
+      "description": "CSS Duotone Generator",
+      "url": "https://cssduotone.com/",
+      "tags": ["CSS", "Utilities", "Duotone"]
+    },
+    {
+      "name": "Duotone Generator",
+      "description": "Duotone Generator from MediaLoot",
+      "url": "https://medialoot.com/duotones/",
+      "tags": ["CSS", "Utilities", "Duotone"]
+    },
+    {
+      "name": "Triangle Generator",
+      "description": "Generate Triangles in CSS",
+      "url": "https://omatsuri.app/triangle-generator",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "BadgeGen",
+      "description": "Generate github badges for your projects",
+      "url": "https://badgen.net/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "CSS Ribbon Generator",
+      "description": "Generate simple and effective ribbon banners for headings or titles using pure CSS",
+      "url": "https://doodlenerd.com/css-element/ribbon-generator",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "WindiCSS",
+      "description": "https://windicss.org/",
+      "url": "Next generation utility-first CSS framework.",
+      "tags": ["CSS Frameworks", "CSS"]
+    },
+    {
+      "name": "Underline Generator",
+      "url": "https://underline-generator.netlify.app/",
+      "description": "Generate underline effects in CSS",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
     }
   ]
 }
