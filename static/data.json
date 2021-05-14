@@ -997,8 +997,8 @@
       "tags": ["CSS", "Animation"]
     },
     {
-      "name": "https://elrumordelaluz.github.io/reshake/",
-      "description": "CSSShake as a React Functional Component",
+      "name": "ReShake",
+      "description": "CSS Shake as a React Functional Component",
       "url": "https://elrumordelaluz.github.io/reshake/",
       "tags": ["Javascript", "React", "CSS", "Animation"]
     },
@@ -1073,6 +1073,432 @@
       "description": "Dead simple visual tools to help you generate CSS for your projects.",
       "url": "https://keyframes.app/",
       "tags": ["CSS", "Animation", "Utilities"]
+    },
+    {
+      "name": "Jam Icons",
+      "description": "940 pixel perfect icons",
+      "url": "https://jam-icons.com/",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "Line Icons",
+      "description": "Download 2000+ Simple Line Icons and Explore Cheatsheet to Start Using With Your Projects.",
+      "url": "https://lineicons.com/icons/",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "Material Icons from Google",
+      "description": "Official Material Icons from Google",
+      "url": "https://fonts.google.com/icons?selected=Material+Icons",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "Icon Monstr",
+      "description": "Discover 4512+ free icons in 316 collections",
+      "url": "https://iconmonstr.com/",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "SVG Icons from IconShock",
+      "description": "An interactive free SVG icons pack specially made for gradient lovers!",
+      "url": "https://www.iconshock.com/svg-icons/",
+      "tags": ["Gradients", "SVG", "Icons"]
+    },
+    {
+      "name": "FlatIcon",
+      "description": "Download thousands of SVG Icons",
+      "url": "https://www.flaticon.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "FreePik",
+      "description": "Graphic resources for everyone. Find Free Vectors, Stock Photos and PSD",
+      "url": "https://www.freepik.com/",
+      "tags": ["SVG", "Icons", "Stock Photos", "Illustration", "Design"]
+    },
+    {
+      "name": "Icon Ninja",
+      "description": "Free SVG and PNG vector icons",
+      "url": "https://www.iconninja.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "SVG Repo",
+      "description": "Free SVG Icons with no 'Premium' Icons",
+      "url": "https://www.svgrepo.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Captain Icon",
+      "description": "350+ Awesome free vector icons to empower your mobile and web designs",
+      "url": "https://mariodelvalle.github.io/CaptainIconWeb/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Font Awesome",
+      "description": "The web's most popular icon set and toolkit",
+      "url": "https://fontawesome.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "tags": []
     }
   ]
 }
