@@ -865,226 +865,214 @@
       "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Underline Generator by CSSBud",
+      "description": "An underline generator by CSS Bud",
+      "url": "https://cssbud.com/css-generator/css-underline-generator/",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Animated Hamburger Menus",
+      "description": "A collection of animated hamburger menus",
+      "url": "https://jonsuh.com/hamburgers/",
+      "tags": ["CSS"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Burger Generator",
+      "description": "Generate hamburger menus",
+      "url": "https://burger-generator.com",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "3D Book Image CSS Generator",
+      "description": "Generate 3D book images",
+      "url": "https://3dbookcovergenerator.netlify.app/",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS Card Flip Generator?",
+      "description": "Generate CSS Flip effects",
+      "url": "http://foxcodetango.com/css-card-flip-generator/index.html",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Flexbox Code Generator",
+      "description": "Generate and visualize flexbox code",
+      "url": "http://foxcodetango.com/flexbox-code-generator/index.html",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS Gradient Pattern Generator",
+      "description": "Generate gradient patterns with CSS",
+      "url": "http://foxcodetango.com/gradient-pattern-generator/index.html",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "SVG Line Graph Generator",
+      "description": "Generate SVG Line Graphs",
+      "url": "http://foxcodetango.com/svg-graph-generator/index.html",
+      "tags": ["SVG", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Gradient Buttons",
+      "description": "Generate CSS Gradient Buttons",
+      "url": "https://gradientbuttons.colorion.co/",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS3 Button Generator",
+      "description": "Generate CSS Buttons",
+      "url": "https://css3buttongenerator.com/",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS Button Creator",
+      "description": "Create buttons with CSS, includes several presets",
+      "url": "https://cssbuttoncreator.com/",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "FormDev tools",
+      "description": "A collection of tools and generators from FormDev",
+      "url": "https://tools.fromdev.com",
+      "tags": ["CSS", "SEO", "Javascript", "Converters", "Meta"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS Generators",
+      "description": "A Collection of CSS generators from CSS Portal",
+      "url": "https://www.cssportal.com/css-generators.php",
+      "tags": ["CSS", "SVG", "Utilities", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "On/Off FlipSwitch",
+      "description": "Generate pure CSS3 On/Off flipswitches with animated transitions.",
+      "url": "https://proto.io/freebies/onoff/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Device Skin Templates",
+      "description": "Free device skin templates",
+      "url": "https://proto.io/freebies/device-templates/",
+      "tags": ["Design", "WebDev"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "HTML Code Generator",
+      "description": "Generate all sorts of HTML and CSS Snippets",
+      "url": "https://www.html-code-generator.com/",
+      "tags": ["Javascript", "CSS", "Utilities", "Converters"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Bun",
+      "description": "A Custom Checkboxes & Radios CSS Generator.",
+      "url": "https://bun.js.org/",
+      "tags": ["CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS Animations Generator",
+      "description": "Generate a number of CSS animations",
+      "url": "https://www.theappguruz.com/tag-tools/web/CSSAnimations/",
+      "tags": ["CSS", "Animation", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSS Animate",
+      "description": "Animate using CSS in a video like editor",
+      "url": "https://cssanimate.com/",
+      "tags": ["CSS", "Animation", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Animatelo",
+      "description": "Just-add-water Web Animations",
+      "url": "https://gibbok.github.io/animatelo/",
+      "tags": ["Animation", "CSS", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "All Animation CSS3",
+      "description": "All animation.css is a set of fun animations to make your project sexier.",
+      "url": "https://all-animation.github.io/",
+      "tags": ["Animation", "CSS"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSShake",
+      "description": "Some CSS classes to move your DOM!",
+      "url": "https://elrumordelaluz.github.io/csshake/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "https://elrumordelaluz.github.io/reshake/",
+      "description": "CSSShake as a React Functional Component",
+      "url": "https://elrumordelaluz.github.io/reshake/",
+      "tags": ["Javascript", "React", "CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "CSSAnimation{io}",
+      "description": "Generate a number of CSS Animation",
+      "url": "http://cssanimation.io/",
+      "tags": ["CSS", "Animation", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Hover.css v2",
+      "description": "A collection of CSS hover effects",
+      "url": "https://ianlunn.github.io/Hover/",
+      "tags": ["CSS", "Utilities", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Infinite CSS Animation",
+      "description": "Useful infinite CSS animations that you can drop into your project.",
+      "url": "https://tilomitra.github.io/infinite/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "It's Tuesday.",
+      "description": "A quirky CSS Animation Library.",
+      "url": "https://shakrmedia.github.io/tuesday/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Magic Effects",
+      "description": "A collection of CSS transition effects",
+      "url": "https://www.minimamente.com/project/magic/",
+      "tags": ["CSS", "Animation", "Utilities"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "micron.js",
+      "description": "microInteraction library built with CSS Animations and controlled by JavaScript",
+      "url": "https://webkul.github.io/micron/",
+      "tags": ["CSS", "Javascript", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Motion UI by Zurb",
+      "description": "A Sass library for creating flexible CSS transitions and animations.",
+      "url": "https://zurb.com/playground/motion-ui",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Obnoxious",
+      "description": "A collection of obnoxious CSS animation",
+      "url": "https://tholman.com/obnoxious/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Rocket",
+      "description": "Rocket creates an animation when an item is moved to another element.",
+      "url": "https://minimamente.com/example/rocket/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "WickedCSS",
+      "description": "A collection of CSS animations",
+      "url": "https://kristofferandreasen.github.io/wickedCSS/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Animate.css",
+      "description": "Just-add-water CSS animations",
+      "url": "https://animate.style/",
+      "tags": ["CSS", "Animation"]
     },
     {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
-    },
-    {
-      "name": "",
-      "description": "",
-      "url": "",
-      "tags": []
+      "name": "Keyframes App",
+      "description": "Dead simple visual tools to help you generate CSS for your projects.",
+      "url": "https://keyframes.app/",
+      "tags": ["CSS", "Animation", "Utilities"]
     }
   ]
 }
