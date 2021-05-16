@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  lint-and-test-app:
+  test-ci:
     runs-on: ubuntu-latest
 
     strategy:
@@ -30,7 +30,7 @@ jobs:
           key: node-modules-${{ hashFiles('package-lock.json') }}
 
       - name: Install Dependencies
-        run: npm Install
+        run: npm i
         env:
           CI: true
 
