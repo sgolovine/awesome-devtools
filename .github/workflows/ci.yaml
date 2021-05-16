@@ -1,0 +1,33 @@
+name: Data Validation CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint-and-test-app:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-versions: [14.x]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Use NodeJS ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Dependencies
+        run: npm Install
+        env:
+          CI: true
+
+      - name: Validate Data
+        run: npm run validate-schema
+        env:
+          CI: true
