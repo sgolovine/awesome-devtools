@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "awesome-devtools",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Awesome Devtools!",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sunny Golovine <sunny@glvn.co>",
   "dependencies": {
     "faunadb": "^4.2.0",
     "gatsby": "^3.4.0",
@@ -37,10 +37,6 @@
     "tailwindcss": "^2.1.2",
     "typescript": "^4.2.4"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -48,15 +44,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "validate-data": "node ./scripts/validate-schema.js",
     "typecheck": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
