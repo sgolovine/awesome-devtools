@@ -50,7 +50,7 @@ const IndexPage: React.FC = () => {
   return (
     <Layout subheaderText={subheader}>
       <>
-        <div className="mb-6">
+        <div className="mb-6 max-w-7xl">
           {allUniqueTags.map((tag: string) => {
             const tagActive = !!(
               activeTags.filter(currentTag => currentTag === tag).length > 0
