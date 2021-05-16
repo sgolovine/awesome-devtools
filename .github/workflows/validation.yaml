@@ -35,6 +35,6 @@ jobs:
           CI: true
 
       - name: Validate Data
-        run: npm run validate-schema
+        run: npm run validate-data
         env:
           CI: true
