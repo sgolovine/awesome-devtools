@@ -49,7 +49,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "validate-data": "node ./scripts/validate-schema.js"
+    "validate-data": "node ./scripts/validate-schema.js",
+    "typecheck": "tsc"
   },
   "repository": {
     "type": "git",
