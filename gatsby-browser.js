@@ -5,6 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+import React from "react"
 import "./src/styles/tailwind.css"
 import { SearchContextProvider } from "./src/context/SearchContext"
 
