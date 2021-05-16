@@ -1,0 +1,16 @@
+{
+  "tools": [
+    {
+      "name": "Awesome Devtools",
+      "description": "A collection of awesome devtools from around the internet",
+      "url": "https://awesomedevtools.com",
+      "tags": ["Awesome", "List", "Tools"]
+    },
+    {
+      "name": "Responsively",
+      "description": "A collection of awesome devtools from around the internet",
+      "url": "https://awesomedevtools.com",
+      "tags": []
+    }
+  ]
+}

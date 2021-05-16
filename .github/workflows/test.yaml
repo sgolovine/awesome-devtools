@@ -1,0 +1,45 @@
+name: Test CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test-ci:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-versions: [14.x]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Use NodeJS ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Dependencies
+        run: npm i
+        env:
+          CI: true
+
+      - name: Run Typechecking
+        run: npm run typecheck
+        env:
+          CI: true
+
+      - name: Run Prettier
+        run: npm run format
+        env:
+          CI: true
