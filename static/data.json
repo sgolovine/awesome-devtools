@@ -1,0 +1,1144 @@
+{
+  "tools": [
+    {
+      "name": "Awesome Devtools",
+      "description": "A collection of awesome devtools from around the internet",
+      "url": "https://awesomedevtools.com",
+      "tags": ["Awesome", "List", "Tools"]
+    },
+    {
+      "name": "Responsively",
+      "description": "A web browser that helps create responsive interfaces",
+      "url": "https://responsively.app/",
+      "tags": ["WebDev", "CSS", "Responsive Design"]
+    },
+    {
+      "name": "Undraw",
+      "description": "High quality SVG illustrations for your project",
+      "url": "https://undraw.co",
+      "tags": ["SVG", "Illustration", "Design"]
+    },
+    {
+      "name": "Adobe Stock",
+      "description": "Stock Photos from Adobe",
+      "url": "https://stock.adobe.com",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "MVP.css",
+      "description": "Classless CSS Framework for building MVP's",
+      "url": "https://andybrewer.github.io/mvp/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "TailwindCSS",
+      "description": "A utility-first css framework",
+      "url": "https://tailwindcss.com/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "BulmaCSS",
+      "description": "Another utility-first css framework",
+      "url": "https://bulma.io/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "Bootstrap",
+      "description": "One of the worlds most popular frontend frameworks",
+      "url": "https://getbootstrap.com/",
+      "tags": ["WebDev", "CSS", "CSS Frameworks"]
+    },
+    {
+      "name": "Hero Icons",
+      "description": "Free and Open Source SVG Icon set from the makers of TailwindCSS",
+      "url": "https://heroicons.com",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Bootstrap Icons",
+      "description": "SVG Icons from Bootstrap",
+      "url": "https://icons.getbootstrap.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Coverr",
+      "description": "Free stock footage for your site",
+      "url": "https://coverr.co/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "MixKit",
+      "description": "Free assets for your next project",
+      "url": "https://mixkit.co/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Pexels",
+      "description": "The best free stock photos & videos shared by talented creators",
+      "url": "https://www.pexels.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Photo Creator",
+      "description": "Stock Photo Creator by Icons8",
+      "url": "https://icons8.com/creator",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Vector Creator",
+      "description": "Vector Creator by Icons8",
+      "url": "https://icons8.com/vector-creator",
+      "tags": ["SVG"]
+    },
+    {
+      "name": "UnScreen",
+      "description": "Remove video backgrounds",
+      "url": "https://www.unscreen.com/",
+      "tags": ["Utilities", "Stock Photos"]
+    },
+    {
+      "name": "RemoveBg",
+      "description": "Remove backgrounds from photos",
+      "url": "https://www.remove.bg/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "Generated Photos",
+      "description": "Generated faces using AI",
+      "url": "https://generated.photos/faces",
+      "tags": ["Utilities", "Stock Photos", "AI"]
+    },
+    {
+      "name": "DuoTone by ShapeFactory",
+      "description": "Convert any image to a DuoTone",
+      "url": "https://duotone.shapefactory.co",
+      "tags": ["Utilities", "CSS", "Duotone"]
+    },
+    {
+      "name": "Open Peeps",
+      "description": "A hand-drawn illustration library.",
+      "url": "https://www.openpeeps.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Smash Illustrations",
+      "description": "Awesome illustration constructor with colorful and trendy characters",
+      "url": "https://usesmash.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Open Doodles",
+      "description": "A Free Set of Open-Source Illustrations!",
+      "url": "https://www.opendoodles.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Control",
+      "description": "Large library of customizable illustrations",
+      "url": "https://control.rocks/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Illustrations from Icons8",
+      "description": "Free Illustrations from Icons8",
+      "url": "https://icons8.com/illustrations",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "avataaars generator",
+      "description": "Free Avatar Generator",
+      "url": "https://getavataaars.com/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Faux Code Generator",
+      "description": "Turn real code into faux code",
+      "url": "http://knutsynstad.com/fauxcode/",
+      "tags": ["Illustration"]
+    },
+    {
+      "name": "Parametric Color Mixer",
+      "description": "A parametric color mixer",
+      "url": "https://colormixer.web.app/02007115ff623007ff9bc91b64440301ffff7c5f55610300/Sunset",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "CSS Gradient",
+      "description": "Generate CSS Gradients",
+      "url": "https://cssgradient.io/",
+      "tags": ["Utilities", "Colors", "CSS", "Gradients"]
+    },
+    {
+      "name": "Colorsinspo",
+      "description": "Thousands of beautiful color palettes you can use it directly by one click.",
+      "url": "https://colorsinspo.com/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "ColorHexa",
+      "description": "Get information about any color.",
+      "url": "https://www.colorhexa.com/index.php",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "ColorSpace",
+      "description": "Generate a pallette based on a single color",
+      "url": "https://mycolor.space/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Palettte App",
+      "description": "Generate color pallettes",
+      "url": "https://palettte.app/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Colorable",
+      "description": "Quickly see the contrast between background and text color",
+      "url": "https://colorable.jxnblk.com/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Freebiesbug",
+      "description": "Handpicked free fonts and typefaces for web and graphics designers",
+      "url": "https://freebiesbug.com/free-fonts/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "FontsArena",
+      "description": "Curated typography website with a focus on contemporary typography and high quality free fonts",
+      "url": "https://fontsarena.com/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "BeFonts",
+      "description": "Free Fonts for Designers",
+      "url": "https://befonts.com/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "FontSquirrel",
+      "description": "Free Font Utopia from FontSquirrel",
+      "url": "https://www.fontsquirrel.com/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "FontJoy",
+      "description": "Font pairing made simple",
+      "url": "https://fontjoy.com/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Type Scale",
+      "description": "Typeface playground. Experiment with fonts.",
+      "url": "https://type-scale.com/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Smooth Shadow",
+      "description": "Generate smooth CSS shadows",
+      "url": "https://shadows.brumm.af/",
+      "tags": ["CSS"]
+    },
+    {
+      "name": "CSS Effects",
+      "description": "Animated CSS Snippets",
+      "url": "https://emilkowalski.github.io/css-effects-snippets/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "CSS Separator Generator",
+      "description": "Generate CSS section separators",
+      "url": "https://wweb.dev/resources/css-separator-generator/",
+      "tags": ["CSS"]
+    },
+    {
+      "name": "Animista",
+      "description": "CSS Animations on Demand",
+      "url": "https://animista.net/play/basic/flip-scale-2",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Draggable by Shopify",
+      "description": "A lightweight, responsive, modern drag & drop library",
+      "url": "https://shopify.github.io/draggable/",
+      "tags": ["WebDev", "Javascript"]
+    },
+    {
+      "name": "Block Reveal Effects",
+      "description": "CSS Block Reveal Effects",
+      "url": "https://tympanus.net/Development/BlockRevealers/index.html",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "IconStore",
+      "description": "Free Icons by First-Class Designers",
+      "url": "https://iconstore.co/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "CSS Icons",
+      "description": "700+ CSS, SVG and Figma icons",
+      "url": "https://css.gg/",
+      "tags": ["Icons", "CSS", "SVG"]
+    },
+    {
+      "name": "Icon Transition Generator",
+      "description": "Create a snappy transition between two icons and download the SVG code",
+      "url": "https://nucleoapp.com/tool/icon-transition",
+      "tags": ["Icons", "Utilities", "SVG", "Animation"]
+    },
+    {
+      "name": "Tilda Icons",
+      "description": "Free icons for landing pages",
+      "url": "https://tilda.cc/free-icons/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Ikonate",
+      "description": "Ikonate are fully customisable & accessible, well-optimised vector icons.",
+      "url": "https://ikonate.com/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Eva Icons",
+      "description": "Pack of more than 480 beautifully crafted Open Source icons for common actions and items.",
+      "url": "https://akveo.github.io/eva-icons/#/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Animated Icons from Icons8",
+      "description": "900+ animated icons to make your projects exceptional",
+      "url": "https://icons8.com/animated-icons",
+      "tags": ["Animation", "SVG", "Icons"]
+    },
+    {
+      "name": "Pattern.css",
+      "description": "Free CSS Patterns",
+      "url": "https://bansal.io/pattern-css",
+      "tags": ["Patterns", "CSS"]
+    },
+    {
+      "name": "GetWaves",
+      "description": "Generate waves for your website",
+      "url": "https://getwaves.io/",
+      "tags": ["Patterns", "CSS"]
+    },
+    {
+      "name": "Blob Maker",
+      "description": "Free generative design tool to help you quickly create random, unique, and organic-looking SVG shapes",
+      "url": "https://www.blobmaker.app/",
+      "tags": ["Patterns", "CSS"]
+    },
+    {
+      "name": "RadLines",
+      "description": "Generate and Download Generated SVG Images",
+      "url": "https://msurguy.github.io/rad-lines/",
+      "tags": ["Patterns", "SVG"]
+    },
+    {
+      "name": "Paaatterns",
+      "description": "Free collection of beautiful patterns for all vector formats",
+      "url": "https://products.ls.graphics/paaatterns/",
+      "tags": ["SVG", "Icons", "Patterns", "CSS"]
+    },
+    {
+      "name": "Scribbbles",
+      "description": "100+ vectorized scribbbles to spice up your design projects.",
+      "url": "https://www.scribbbles.design/",
+      "tags": ["Illustration", "Icons", "Patterns"]
+    },
+    {
+      "name": "Nucleo",
+      "description": "Icon management, solved",
+      "url": "https://nucleoapp.com/",
+      "tags": ["Utilities", "Icons"]
+    },
+    {
+      "name": "Checklist Design",
+      "description": "A collection of the best design practices.",
+      "url": "https://www.checklist.design/",
+      "tags": ["Design", "Utilities"]
+    },
+    {
+      "name": "Design Systems Gallery",
+      "description": "A comprehensive and curated list of design systems, style guides and pattern libraries that you can use for inspiration.",
+      "url": "https://designsystemsrepo.com/design-systems-recent/",
+      "tags": ["Utilities", "Design"]
+    },
+    {
+      "name": "CSS Peeper",
+      "description": "Smart CSS viewer tailored for Designers.",
+      "url": "https://csspeeper.com/",
+      "tags": ["Design", "Browser Extension", "CSS", "WebDev"]
+    },
+    {
+      "name": "Image Upscaler",
+      "description": "AI Image Upscaler from Icons8",
+      "url": "https://icons8.com/upscaler",
+      "tags": ["AI", "Stock Photos", "Utilities"]
+    },
+    {
+      "name": "Font in Logo",
+      "description": "Find fonts used in logos",
+      "url": "https://www.fontinlogo.com/logos",
+      "tags": ["Icons", "Utilities"]
+    },
+    {
+      "name": "Sneakpeekit",
+      "description": "Printable sketch sheet templates for web and mobile design",
+      "url": "https://sneakpeekit.com/",
+      "tags": ["Design", "Utilities"]
+    },
+    {
+      "name": "Screely",
+      "description": "Instantly Turn a Screenshot into a Browser Mockup",
+      "url": "https://www.screely.com/",
+      "tags": ["Utilities", "Illustration"]
+    },
+    {
+      "name": "Favicomatic",
+      "description": "Favicon Generator",
+      "url": "https://favicomatic.com/",
+      "tags": ["WebDev", "Design", "Utilities"]
+    },
+    {
+      "name": "Pastel",
+      "description": "Review and comment on websites live. One click to share with clients and teammates.",
+      "url": "https://usepastel.com/",
+      "tags": ["Utilities", "WebDev", "Collaboration", "Productivity"]
+    },
+    {
+      "name": "Whimsical",
+      "description": "Unified suite of collaboration tools. Product specs, wikis, brainstorming, ideation and more.",
+      "url": "https://whimsical.com/",
+      "tags": ["Collaboration"]
+    },
+    {
+      "name": "HANDZ",
+      "description": "3D Hand Illustrations",
+      "url": "https://www.handz.design/",
+      "tags": ["Design", "Illustration"]
+    },
+    {
+      "name": "Toy Faces Library",
+      "description": "Fun diverse library of 3D avatars for design mockups and commercial projects. ",
+      "url": "https://amritpaldesign.com/toy-faces",
+      "tags": ["Design", "Illustration"]
+    },
+    {
+      "name": "Blush",
+      "description": "Create and customize illustrations",
+      "url": "https://blush.design/",
+      "tags": ["Illustration", "Design"]
+    },
+    {
+      "name": "Vector Illustrations",
+      "description": "Vector Illustrations by StreamlineHQ",
+      "url": "https://lab.streamlinehq.com/",
+      "tags": ["SVG", "Illustration"]
+    },
+    {
+      "name": "Pixabay",
+      "description": "Stunning free images & royalty free stock",
+      "url": "https://pixabay.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Magdeleine",
+      "description": "Hand-picked free photos for your inspiration",
+      "url": "https://magdeleine.co/browse/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Burst by Shopify",
+      "description": "Free stock photos for websites and commercial use",
+      "url": "https://burst.shopify.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "ReShot",
+      "description": "Free Stock Photos",
+      "url": "https://www.reshot.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Gratisography",
+      "description": "High Resolution Free Stock Pictures",
+      "url": "https://gratisography.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "ISO Republic",
+      "description": "Thousands of Free High-Resolution CC0 Photos and Videos",
+      "url": "https://isorepublic.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Mazwai",
+      "description": "Hand picked stock video footage",
+      "url": "https://mazwai.com/",
+      "tags": ["Stock Photos"]
+    },
+    {
+      "name": "Colorize",
+      "description": "Use AI technology to restore old photos automatically",
+      "url": "https://imagecolorizer.com/",
+      "tags": ["Utilities", "Stock Photos"]
+    },
+    {
+      "name": "Beautiful Web Type",
+      "description": "Guide to Only the Best Open-Source Typefaces",
+      "url": "https://beautifulwebtype.com/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "Font Fabric",
+      "description": "Free fonts from Font Fabric",
+      "url": "https://www.fontfabric.com/free-fonts/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Font Library",
+      "description": "Free fonts from Font Library",
+      "url": "https://fontlibrary.org/en",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "100 Days of Fonts",
+      "description": "100 Days of Fonts",
+      "url": "http://100daysoffonts.com/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "1001 Fonts",
+      "description": "New & Fresh Fonts",
+      "url": "https://www.1001fonts.com/",
+      "tags": ["Fonts"]
+    },
+    {
+      "name": "Essentials Icon Kit",
+      "description": "Essentials, an icon font by SmplKit.",
+      "url": "https://www.smplkit.com/",
+      "tags": ["Typography", "Fonts", "Icons"]
+    },
+    {
+      "name": "Free Icons",
+      "description": "266 FREE responsive icons in 3 sizes (16/20/24px)",
+      "url": "https://gumroad.com/l/freeicons",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Material Icon Library",
+      "description": "Free Collection of 1000+ Material Design Icons in 3 Styles",
+      "url": "https://icons.pixsellz.io/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "IconScout",
+      "description": "Over 3 Million+ Design Assets ",
+      "url": "https://iconscout.com/",
+      "tags": ["Design", "Icons", "SVG"]
+    },
+    {
+      "name": "Tabler Icons",
+      "description": "A set of over 1250 free MIT-licensed high-quality SVG icons",
+      "url": "https://github.com/tabler/tabler-icons",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Feather Icons",
+      "description": "Beautiful open source SVG icons",
+      "url": "https://feathericons.com/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "HexColor - Get Color from Image",
+      "description": "Get a dominant color of an image",
+      "url": "https://hexcolor.co/image-to-colors",
+      "tags": ["Utilities", "Colors"]
+    },
+    {
+      "name": "Happy Hues",
+      "description": "Curated colors in context",
+      "url": "https://www.happyhues.co/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Piggment",
+      "description": "The gradient you have always wanted.",
+      "url": "https://piggment.co/",
+      "tags": ["Illustration", "Colors", "Gradients"]
+    },
+    {
+      "name": "Coolors",
+      "description": "Generate random color pallettes",
+      "url": "https://coolors.co/",
+      "tags": ["Colors", "Design"]
+    },
+    {
+      "name": "ColorBox",
+      "description": "Color pallette builder",
+      "url": "https://colorbox.io/",
+      "tags": ["Colors", "Utilities"]
+    },
+    {
+      "name": "Picular",
+      "description": "Search for colors by anything",
+      "url": "https://picular.co/",
+      "tags": ["Colors"]
+    },
+    {
+      "name": "Custom Shape Dividers",
+      "description": "Shape divider generator",
+      "url": "https://www.shapedivider.app/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Trianglify.io",
+      "description": "Low poly pattern generator",
+      "url": "https://trianglify.io/",
+      "tags": ["Patterns", "Colors"]
+    },
+    {
+      "name": "Free SVG Maps",
+      "description": "Free SVG maps of countries",
+      "url": "https://www.amcharts.com/svg-maps/",
+      "tags": ["SVG", "Illustration"]
+    },
+    {
+      "name": "Vector Logo World",
+      "description": "Download Vector Logos for Brands",
+      "url": "https://worldvectorlogo.com/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Logolix",
+      "description": "Free Logo Designs for Your Projects",
+      "url": "http://logolix.com/",
+      "tags": ["Icons", "Illustration", "SVG"]
+    },
+    {
+      "name": "Webframe",
+      "description": "Beautiful web app screenshots",
+      "url": "https://webframe.xyz/",
+      "tags": ["Inspiration", "WebDev"]
+    },
+    {
+      "name": "SaaS Landing Page",
+      "description": "SaaS landing page examples",
+      "url": "https://saaslandingpage.com/",
+      "tags": ["Inspiration", "WebDev"]
+    },
+    {
+      "name": "Nicely Done",
+      "description": "Inspiration library of design patterns examples from real products",
+      "url": "https://nicelydone.club/",
+      "tags": ["Inspiration", "WebDev", "Design"]
+    },
+    {
+      "name": "UI Design Daily",
+      "description": "Weekly Free UI resources right to your inbox",
+      "url": "https://www.uidesigndaily.com/",
+      "tags": ["Inspiration", "WebDev", "Design"]
+    },
+    {
+      "name": "Mobbin Design",
+      "description": "https://mobbin.design/",
+      "url": "Discover the latest iOS UI design patterns",
+      "tags": ["Mobile Development", "iOS", "Inspiration", "Design"]
+    },
+    {
+      "name": "UI Garage",
+      "description": "Daily handpicked UI inspiration & patterns",
+      "url": "https://uigarage.net/",
+      "tags": ["Mobile Development", "Inspiration", "WebDev", "Design"]
+    },
+    {
+      "name": "Resizing App",
+      "description": "Resize Your Images Online",
+      "url": "https://resizing.app/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "Tiny PNG",
+      "description": "Smart PNG and JPEG compression",
+      "url": "https://tinypng.com/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "CSS Filters",
+      "description": "Generate CSS filters for your images",
+      "url": "https://www.cssfilters.co/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Filter Generator",
+      "description": "Generate photo filters with CSS",
+      "url": "https://www.cssfiltergenerator.com/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Media Query Generator by SimpleCSS",
+      "description": "Quickly get media queries for popular devices",
+      "url": "https://simplecss.eu/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS3 Media Query Generator",
+      "description": "Generate Media Queries",
+      "url": "http://giona.net/tools/css3-mediaquery-generator/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Loader Gallery",
+      "description": "customize and make your own unique loader!",
+      "url": "https://loading.io/spinner/",
+      "tags": ["Animation", "CSS", "SVG"]
+    },
+    {
+      "name": "SpinKit",
+      "description": "Simple CSS Spinners",
+      "url": "https://tobiasahlin.com/spinkit/",
+      "tags": ["Animation", "CSS"]
+    },
+    {
+      "name": "Font Generator",
+      "description": "Generate unique font pairings from Google Fonts",
+      "url": "https://brandmark.io/font-generator/",
+      "tags": ["Fonts", "Typography"]
+    },
+    {
+      "name": "MixFont",
+      "description": "Mixfont is a fun and simple way to discover and visualize new fonts.",
+      "url": "https://www.mixfont.com/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "Bungee",
+      "description": "Fonts for multi-color and vertical typography",
+      "url": "https://djr.com/bungee/",
+      "tags": ["Typography", "Fonts"]
+    },
+    {
+      "name": "Random Material Pallette Generator",
+      "description": "https://www.threebu.it/random-material-palette/",
+      "url": "https://www.threebu.it/random-material-palette/",
+      "tags": ["Colors", "Gradients", "Utilities"]
+    },
+    {
+      "name": "CSS Box Shadow Examples",
+      "description": "Beautiful CSS box-shadow examples",
+      "url": "https://getcssscan.com/css-box-shadow-examples",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS3 Studio",
+      "description": "CSS Box Shadow Generator",
+      "url": "http://css3studio.com/page-css3/css-box-shadow.php",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Enjoy CSS",
+      "description": "Advanced CSS3 Generator",
+      "url": "https://enjoycss.com/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Bud",
+      "description": "CSS box shadow generator",
+      "url": "https://cssbud.com/css-generator/css-box-shadow-generator/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Generator by Webcode.tools",
+      "description": "Generate common CSS snippets",
+      "url": "https://webcode.tools/generators/css",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "JSON LD Generator by Webcode.tools",
+      "description": "Generate JSON LD schema for your site",
+      "url": "https://webcode.tools/generators/json-ld",
+      "tags": ["SEO", "Meta", "WebDev"]
+    },
+    {
+      "name": "Meta Tag Generator by Webcode.tools",
+      "description": "Generate meta tags for your head",
+      "url": "https://webcode.tools/generators/meta-tags",
+      "tags": ["SEO", "Meta", "WebDev"]
+    },
+    {
+      "name": "Free Meta Tag Generator",
+      "description": "Meta tag generator",
+      "url": "https://www.seoptimer.com/meta-tag-generator",
+      "tags": ["SEO", "Meta"]
+    },
+    {
+      "name": "SEO Meta Tag Generator",
+      "description": "Meta tag generator",
+      "url": "https://hallanalysis.com/seo-meta-tag-generator/",
+      "tags": ["SEO", "Meta"]
+    },
+    {
+      "name": "Favicon Maker",
+      "description": "Free Favicon Generator from Formito",
+      "url": "https://formito.com/tools/favicon",
+      "tags": ["WebDev", "Logo", "SVG", "Meta"]
+    },
+    {
+      "name": "Typography Logo Maker",
+      "description": "Free logo generator (text only) from Formito",
+      "url": "https://formito.com/tools/logo",
+      "tags": ["WebDev", "Logo", "Typography"]
+    },
+    {
+      "name": "Favicon.io",
+      "description": "The only favicon generator you need for your next project.",
+      "url": "https://favicon.io/",
+      "tags": ["WebDev", "Logo"]
+    },
+    {
+      "name": "Favicon and App Icon Generator",
+      "description": "Generate Favicons and App Icons for your site",
+      "url": "https://www.favicon-generator.org/",
+      "tags": ["WebDev", "Logo", "Icons"]
+    },
+    {
+      "name": "Profile Pic Maker",
+      "description": "Make an awesome profile picture from any photo",
+      "url": "https://pfpmaker.com/",
+      "tags": ["Profile Picture", "WebDev", "Stock Photos"]
+    },
+    {
+      "name": "Neumorphism.io",
+      "description": "Generate Soft-UI CSS code",
+      "url": "https://neumorphism.io/#e0e0e0",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "neumorphic.design",
+      "description": "Create neumorphic shapes easily with this generator",
+      "url": "https://neumorphic.design/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Duotone",
+      "description": "CSS Duotone Generator",
+      "url": "https://cssduotone.com/",
+      "tags": ["CSS", "Utilities", "Duotone"]
+    },
+    {
+      "name": "Duotone Generator",
+      "description": "Duotone Generator from MediaLoot",
+      "url": "https://medialoot.com/duotones/",
+      "tags": ["CSS", "Utilities", "Duotone"]
+    },
+    {
+      "name": "Triangle Generator",
+      "description": "Generate Triangles in CSS",
+      "url": "https://omatsuri.app/triangle-generator",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "BadgeGen",
+      "description": "Generate github badges for your projects",
+      "url": "https://badgen.net/",
+      "tags": ["Utilities"]
+    },
+    {
+      "name": "CSS Ribbon Generator",
+      "description": "Generate simple and effective ribbon banners for headings or titles using pure CSS",
+      "url": "https://doodlenerd.com/css-element/ribbon-generator",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "WindiCSS",
+      "description": "https://windicss.org/",
+      "url": "Next generation utility-first CSS framework.",
+      "tags": ["CSS Frameworks", "CSS"]
+    },
+    {
+      "name": "Underline Generator",
+      "url": "https://underline-generator.netlify.app/",
+      "description": "Generate underline effects in CSS",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Underline Generator by CSSBud",
+      "description": "An underline generator by CSS Bud",
+      "url": "https://cssbud.com/css-generator/css-underline-generator/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Animated Hamburger Menus",
+      "description": "A collection of animated hamburger menus",
+      "url": "https://jonsuh.com/hamburgers/",
+      "tags": ["CSS"]
+    },
+    {
+      "name": "Burger Generator",
+      "description": "Generate hamburger menus",
+      "url": "https://burger-generator.com",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "3D Book Image CSS Generator",
+      "description": "Generate 3D book images",
+      "url": "https://3dbookcovergenerator.netlify.app/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Card Flip Generator?",
+      "description": "Generate CSS Flip effects",
+      "url": "http://foxcodetango.com/css-card-flip-generator/index.html",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "Flexbox Code Generator",
+      "description": "Generate and visualize flexbox code",
+      "url": "http://foxcodetango.com/flexbox-code-generator/index.html",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Gradient Pattern Generator",
+      "description": "Generate gradient patterns with CSS",
+      "url": "http://foxcodetango.com/gradient-pattern-generator/index.html",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "SVG Line Graph Generator",
+      "description": "Generate SVG Line Graphs",
+      "url": "http://foxcodetango.com/svg-graph-generator/index.html",
+      "tags": ["SVG", "Utilities"]
+    },
+    {
+      "name": "Gradient Buttons",
+      "description": "Generate CSS Gradient Buttons",
+      "url": "https://gradientbuttons.colorion.co/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS3 Button Generator",
+      "description": "Generate CSS Buttons",
+      "url": "https://css3buttongenerator.com/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Button Creator",
+      "description": "Create buttons with CSS, includes several presets",
+      "url": "https://cssbuttoncreator.com/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "FormDev tools",
+      "description": "A collection of tools and generators from FormDev",
+      "url": "https://tools.fromdev.com",
+      "tags": ["CSS", "SEO", "Javascript", "Converters", "Meta"]
+    },
+    {
+      "name": "CSS Generators",
+      "description": "A Collection of CSS generators from CSS Portal",
+      "url": "https://www.cssportal.com/css-generators.php",
+      "tags": ["CSS", "SVG", "Utilities", "Animation"]
+    },
+    {
+      "name": "On/Off FlipSwitch",
+      "description": "Generate pure CSS3 On/Off flipswitches with animated transitions.",
+      "url": "https://proto.io/freebies/onoff/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Device Skin Templates",
+      "description": "Free device skin templates",
+      "url": "https://proto.io/freebies/device-templates/",
+      "tags": ["Design", "WebDev"]
+    },
+    {
+      "name": "HTML Code Generator",
+      "description": "Generate all sorts of HTML and CSS Snippets",
+      "url": "https://www.html-code-generator.com/",
+      "tags": ["Javascript", "CSS", "Utilities", "Converters"]
+    },
+    {
+      "name": "Bun",
+      "description": "A Custom Checkboxes & Radios CSS Generator.",
+      "url": "https://bun.js.org/",
+      "tags": ["CSS", "Utilities"]
+    },
+    {
+      "name": "CSS Animations Generator",
+      "description": "Generate a number of CSS animations",
+      "url": "https://www.theappguruz.com/tag-tools/web/CSSAnimations/",
+      "tags": ["CSS", "Animation", "Utilities"]
+    },
+    {
+      "name": "CSS Animate",
+      "description": "Animate using CSS in a video like editor",
+      "url": "https://cssanimate.com/",
+      "tags": ["CSS", "Animation", "Utilities"]
+    },
+    {
+      "name": "Animatelo",
+      "description": "Just-add-water Web Animations",
+      "url": "https://gibbok.github.io/animatelo/",
+      "tags": ["Animation", "CSS", "Utilities"]
+    },
+    {
+      "name": "All Animation CSS3",
+      "description": "All animation.css is a set of fun animations to make your project sexier.",
+      "url": "https://all-animation.github.io/",
+      "tags": ["Animation", "CSS"]
+    },
+    {
+      "name": "CSShake",
+      "description": "Some CSS classes to move your DOM!",
+      "url": "https://elrumordelaluz.github.io/csshake/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "ReShake",
+      "description": "CSS Shake as a React Functional Component",
+      "url": "https://elrumordelaluz.github.io/reshake/",
+      "tags": ["Javascript", "React", "CSS", "Animation"]
+    },
+    {
+      "name": "CSSAnimation{io}",
+      "description": "Generate a number of CSS Animation",
+      "url": "http://cssanimation.io/",
+      "tags": ["CSS", "Animation", "Utilities"]
+    },
+    {
+      "name": "Hover.css v2",
+      "description": "A collection of CSS hover effects",
+      "url": "https://ianlunn.github.io/Hover/",
+      "tags": ["CSS", "Utilities", "Animation"]
+    },
+    {
+      "name": "Infinite CSS Animation",
+      "description": "Useful infinite CSS animations that you can drop into your project.",
+      "url": "https://tilomitra.github.io/infinite/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "It's Tuesday.",
+      "description": "A quirky CSS Animation Library.",
+      "url": "https://shakrmedia.github.io/tuesday/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Magic Effects",
+      "description": "A collection of CSS transition effects",
+      "url": "https://www.minimamente.com/project/magic/",
+      "tags": ["CSS", "Animation", "Utilities"]
+    },
+    {
+      "name": "micron.js",
+      "description": "microInteraction library built with CSS Animations and controlled by JavaScript",
+      "url": "https://webkul.github.io/micron/",
+      "tags": ["CSS", "Javascript", "Animation"]
+    },
+    {
+      "name": "Motion UI by Zurb",
+      "description": "A Sass library for creating flexible CSS transitions and animations.",
+      "url": "https://zurb.com/playground/motion-ui",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Obnoxious",
+      "description": "A collection of obnoxious CSS animation",
+      "url": "https://tholman.com/obnoxious/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Rocket",
+      "description": "Rocket creates an animation when an item is moved to another element.",
+      "url": "https://minimamente.com/example/rocket/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "WickedCSS",
+      "description": "A collection of CSS animations",
+      "url": "https://kristofferandreasen.github.io/wickedCSS/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Animate.css",
+      "description": "Just-add-water CSS animations",
+      "url": "https://animate.style/",
+      "tags": ["CSS", "Animation"]
+    },
+    {
+      "name": "Keyframes App",
+      "description": "Dead simple visual tools to help you generate CSS for your projects.",
+      "url": "https://keyframes.app/",
+      "tags": ["CSS", "Animation", "Utilities"]
+    },
+    {
+      "name": "Jam Icons",
+      "description": "940 pixel perfect icons",
+      "url": "https://jam-icons.com/",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "Line Icons",
+      "description": "Download 2000+ Simple Line Icons and Explore Cheatsheet to Start Using With Your Projects.",
+      "url": "https://lineicons.com/icons/",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "Material Icons from Google",
+      "description": "Official Material Icons from Google",
+      "url": "https://fonts.google.com/icons?selected=Material+Icons",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "Icon Monstr",
+      "description": "Discover 4512+ free icons in 316 collections",
+      "url": "https://iconmonstr.com/",
+      "tags": ["Icons"]
+    },
+    {
+      "name": "SVG Icons from IconShock",
+      "description": "An interactive free SVG icons pack specially made for gradient lovers!",
+      "url": "https://www.iconshock.com/svg-icons/",
+      "tags": ["Gradients", "SVG", "Icons"]
+    },
+    {
+      "name": "FlatIcon",
+      "description": "Download thousands of SVG Icons",
+      "url": "https://www.flaticon.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "FreePik",
+      "description": "Graphic resources for everyone. Find Free Vectors, Stock Photos and PSD",
+      "url": "https://www.freepik.com/",
+      "tags": ["SVG", "Icons", "Stock Photos", "Illustration", "Design"]
+    },
+    {
+      "name": "Icon Ninja",
+      "description": "Free SVG and PNG vector icons",
+      "url": "https://www.iconninja.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "SVG Repo",
+      "description": "Free SVG Icons with no 'Premium' Icons",
+      "url": "https://www.svgrepo.com/",
+      "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Captain Icon",
+      "description": "350+ Awesome free vector icons to empower your mobile and web designs",
+      "url": "https://mariodelvalle.github.io/CaptainIconWeb/",
+      "tags": ["Icons", "SVG"]
+    },
+    {
+      "name": "Font Awesome",
+      "description": "The web's most popular icon set and toolkit",
+      "url": "https://fontawesome.com/",
+      "tags": ["SVG", "Icons"]
+    }
+  ]
+}
