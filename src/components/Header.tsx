@@ -1,5 +1,6 @@
 import React from "react"
-import { graphql, navigate, useStaticQuery } from "gatsby"
+import { navigate } from "gatsby"
+import { ISSUE_LINK } from "~/contants/links"
 interface Props {
   headerText: string
   subheaderText: string
@@ -25,7 +26,7 @@ const Header: React.FC<Props> = ({
       </div>
       {!hideSubmitButton && (
         <button
-          onClick={() => navigate("/submit")}
+          onClick={() => navigate(ISSUE_LINK)}
           className="p-4 rounded shadow bg-blue-500 text-white font-bold text-lg"
         >
           Submit a Devtool
