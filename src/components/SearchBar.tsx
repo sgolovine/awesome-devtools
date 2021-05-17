@@ -9,7 +9,7 @@ const SearchBar: React.FC = () => {
     <div className="relative">
       <input
         className="py-2 pr-10 text-sm rounded-md pl-2 focus:border-blue-500 border shadow"
-        placeholder="Search..."
+        placeholder="Search for devtools..."
         value={searchContext.searchInput}
         onChange={e => searchContext.setSearch(e.target.value)}
       />

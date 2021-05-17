@@ -1,8 +1,27 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React, { createContext, useEffect, useState } from "react"
+import { Tag } from "~/model/tag"
 import { Tool } from "~/model/tool"
 
-const getTagsWithCounts = (data: Tool[]) => {
+const _filterOnSearchTerm = (tools: Tool[], searchTerm: string): Tool[] => {
+  const regex = new RegExp(String.raw`${searchTerm}`)
+  return tools.filter(tool => {
+    if (tool.name.toLowerCase().match(regex)) {
+      return tool
+    }
+    if (tool.description.toLowerCase().match(regex)) {
+      return tool
+    }
+    if (tool.url.match(regex)) {
+      return tool
+    }
+    if (tool.tags.filter(tag => tag.toLowerCase().match(regex)).length > 0) {
+      return tool
+    }
+  })
+}
+
+const _getTagsWithCounts = (data: Tool[]): Tag[] => {
   const _getCounts = (allTags: string[]) => {
     let counts = {}
 
@@ -26,12 +45,12 @@ const getTagsWithCounts = (data: Tool[]) => {
   const tagCounts = _getCounts(allTags)
 
   const uniqueTagsWithCounts = [...new Set(allTags)].reduce(
-    (acc: { tag: string; count: number }[], item: string) => {
+    (acc: Tag[], item: string) => {
       return [
         ...acc,
         {
-          tag: item,
-          count: tagCounts[item as keyof typeof tagCounts],
+          name: item,
+          occurrence: tagCounts[item as keyof typeof tagCounts],
         },
       ]
     },
@@ -42,6 +61,7 @@ const getTagsWithCounts = (data: Tool[]) => {
 
 interface SearchContext {
   tools: Tool[]
+  tags: Tag[]
   searchInput: string
   activeTag: string
   setSearch: (term: string) => void
@@ -72,26 +92,37 @@ export const SearchContextProvider: React.FC = ({ children }) => {
 
   const { tools } = query.staticJson
 
-  const [filteredTools, setFilteredTools] = useState<Tool[]>([])
+  const [filteredTools, _setFilteredTools] = useState<Tool[]>([])
 
-  // LOGIC:
-  // - Yank all tags from the data
-  // - Get a unique set of tags
-  // - For every tag in the unique set -> figure out # of occurrence in main set
-  // - Return the name of the tag + the occurrence
-  const [allTags, setAllTags] = useState<
-    {
-      name: string
-      occurrence: number
-    }[]
-  >([])
+  const [allTags, _setAllTags] = useState<Tag[]>([])
 
   const [searchInput, _setSearchInput] = useState<string>("")
   const [activeTag, _setActiveTag] = useState<string>("")
 
-  useEffect(() => {}, [searchInput])
+  // Set the tags from the data
+  useEffect(() => {
+    const tags = _getTagsWithCounts(tools)
+    _setAllTags(tags)
+    _setFilteredTools(tools)
+  }, [])
 
-  useEffect(() => {}, [activeTag])
+  useEffect(() => {
+    if (searchInput) {
+      const filteredTools = _filterOnSearchTerm(tools, searchInput)
+      _setFilteredTools(filteredTools)
+    } else {
+      _setFilteredTools(tools)
+    }
+  }, [searchInput])
+
+  useEffect(() => {
+    if (activeTag) {
+      const filteredTools = tools.filter(tool => tool.tags.includes(activeTag))
+      _setFilteredTools(filteredTools)
+    } else {
+      _setFilteredTools(tools)
+    }
+  }, [activeTag])
 
   const setSearch = (newValue: string) => _setSearchInput(newValue)
 
@@ -103,6 +134,7 @@ export const SearchContextProvider: React.FC = ({ children }) => {
 
   const value: SearchContext = {
     tools: filteredTools,
+    tags: allTags,
     searchInput,
     activeTag,
     setSearch,

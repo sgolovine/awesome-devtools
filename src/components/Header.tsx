@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       <div className="flex flex-col md:flex-row-reverse items-center">
         <button
           onClick={() => navigate(ISSUE_LINK)}
-          className="py-2 px-4 rounded shadow bg-blue-500 text-white font-bold text-lg"
+          className="py-2 px-4 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
         >
           Submit a Devtool
         </button>
