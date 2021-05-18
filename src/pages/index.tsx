@@ -70,18 +70,16 @@ const IndexPage: React.FC = () => {
           toggleTag={setActiveTag}
           clearTag={clearTag}
         />
-        <div className="flex flex-row flex-wrap max-w-7xl">
+        <div className="flex flex-col sm:flex-row flex-nowrap sm:flex-wrap max-w-7xl">
           {tools.map((tool: Tool) => {
             return (
-              <div className="m-1">
-                <Card
-                  key={tool.name}
-                  title={tool.name}
-                  description={tool.description}
-                  url={tool.url}
-                  tags={tool.tags}
-                />
-              </div>
+              <Card
+                key={tool.name}
+                title={tool.name}
+                description={tool.description}
+                url={tool.url}
+                tags={tool.tags}
+              />
             )
           })}
         </div>
