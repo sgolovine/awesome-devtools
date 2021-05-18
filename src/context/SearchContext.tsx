@@ -63,9 +63,9 @@ interface SearchContext {
   tools: Tool[]
   tags: Tag[]
   searchInput: string
-  activeTag: string
+  activeTag: Tag | null
   setSearch: (term: string) => void
-  setActiveTag: (tag: string) => void
+  setActiveTag: (tag: Tag) => void
   clearSearch: () => void
   clearTag: () => void
 }
@@ -97,7 +97,7 @@ export const SearchContextProvider: React.FC = ({ children }) => {
   const [allTags, _setAllTags] = useState<Tag[]>([])
 
   const [searchInput, _setSearchInput] = useState<string>("")
-  const [activeTag, _setActiveTag] = useState<string>("")
+  const [activeTag, _setActiveTag] = useState<Tag | null>(null)
 
   // Set the tags from the data
   useEffect(() => {
@@ -110,6 +110,7 @@ export const SearchContextProvider: React.FC = ({ children }) => {
     if (searchInput) {
       const filteredTools = _filterOnSearchTerm(tools, searchInput)
       _setFilteredTools(filteredTools)
+      _setActiveTag(null)
     } else {
       _setFilteredTools(tools)
     }
@@ -117,7 +118,9 @@ export const SearchContextProvider: React.FC = ({ children }) => {
 
   useEffect(() => {
     if (activeTag) {
-      const filteredTools = tools.filter(tool => tool.tags.includes(activeTag))
+      const filteredTools = tools.filter(tool =>
+        tool.tags.includes(activeTag.name)
+      )
       _setFilteredTools(filteredTools)
     } else {
       _setFilteredTools(tools)
@@ -126,11 +129,11 @@ export const SearchContextProvider: React.FC = ({ children }) => {
 
   const setSearch = (newValue: string) => _setSearchInput(newValue)
 
-  const setActiveTag = (newTag: string) => _setActiveTag(newTag)
+  const setActiveTag = (newTag: Tag) => _setActiveTag(newTag)
 
   const clearSearch = () => _setSearchInput("")
 
-  const clearTag = () => _setActiveTag("")
+  const clearTag = () => _setActiveTag(null)
 
   const value: SearchContext = {
     tools: filteredTools,
