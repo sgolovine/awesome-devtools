@@ -2,38 +2,48 @@ import React, { useEffect, useState } from "react"
 import { Layout } from "~/components/Layout"
 import SubmitForm from "~/components/SubmitForm"
 
-const SubmitPage: React.FC = () => {
-  const [form, setForm] = useState<{
-    toolName: string
-    toolUrl: string
-    toolDescription: string
-    toolTags: string
-  }>({
-    toolName: "",
-    toolDescription: "",
-    toolTags: "",
-    toolUrl: "",
-  })
+interface Form {
+  toolName: string
+  toolUrl: string
+  toolDescription: string
+  toolTags: string
+}
 
-  const [successError, setSuccessError] = useState<{
-    success: {
-      show: boolean
-      message: string
-    }
-    error: {
-      show: boolean
-      message: string
-    }
-  }>({
-    success: {
-      show: false,
-      message: "",
-    },
-    error: {
-      show: false,
-      message: "",
-    },
-  })
+interface SuccessError {
+  success: {
+    show: boolean
+    message: string
+  }
+  error: {
+    show: boolean
+    message: string
+  }
+}
+
+const defaultForm: Form = {
+  toolName: "",
+  toolDescription: "",
+  toolTags: "",
+  toolUrl: "",
+}
+
+const defaultSuccessError: SuccessError = {
+  success: {
+    show: false,
+    message: "",
+  },
+  error: {
+    show: false,
+    message: "",
+  },
+}
+
+const SubmitPage: React.FC = () => {
+  const [form, setForm] = useState<Form>(defaultForm)
+
+  const [successError, setSuccessError] = useState<SuccessError>(
+    defaultSuccessError
+  )
 
   useEffect(() => {
     clearSuccess()
@@ -123,7 +133,7 @@ const SubmitPage: React.FC = () => {
             create a pull request for this site with the added tool.
           </p>
           <p>
-            The respository for Awesome Devtools can be found{" "}
+            The repository for Awesome Devtools can be found{" "}
             <a
               className="text-blue-600 font-bold hover:underline"
               href="https://github.com/sgolovine/awesome-devtools"
@@ -160,14 +170,7 @@ const SubmitPage: React.FC = () => {
             onToolTagsChange={(newVal: string) =>
               setForm({ ...form, toolTags: newVal })
             }
-            onClear={() =>
-              setForm({
-                toolName: "",
-                toolTags: "",
-                toolUrl: "",
-                toolDescription: "",
-              })
-            }
+            onClear={() => setForm(defaultForm)}
             onSubmit={handleSubmit}
             success={successError.success}
             error={successError.error}
