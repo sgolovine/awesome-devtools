@@ -5,15 +5,27 @@ import Footer from "./Footer"
 interface Props {
   children: ReactNode
   hideSubmitButton?: boolean
+  hideSearchBar?: boolean
   headerText?: string
   subheaderText?: string
   customSubheader?: () => JSX.Element
 }
 
-export const Layout: React.FC<Props> = ({ children }) => (
+export const Layout: React.FC<Props> = ({
+  children,
+  hideSubmitButton,
+  hideSearchBar,
+  headerText,
+  subheaderText,
+}) => (
   <div>
     <header>
-      <Header />
+      <Header
+        hideSearchBar={hideSearchBar}
+        hideSubmitButton={hideSubmitButton}
+        headerText={headerText}
+        subheaderText={subheaderText}
+      />
     </header>
     <main className="px-12 py-6">{children}</main>
     <footer>
