@@ -28,5 +28,7 @@ if (error) {
   return 1
 }
 
+console.log("😎 Checking for Duplicates")
+
 console.log("✅ Validation Success")
 return 0

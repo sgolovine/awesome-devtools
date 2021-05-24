@@ -5,6 +5,8 @@
 
 A collection of awesome devtools from around the internet
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/278a13fc-df3d-4590-83fe-a7decd564592/deploy-status)](https://app.netlify.com/sites/awesome-devtools/deploys)
+
 ## Contributing to the list
 
 All tools submitted to Awesome Devtools are contributed by our users. You can submit a tool two ways:

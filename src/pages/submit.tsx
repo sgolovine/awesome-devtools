@@ -1,24 +1,8 @@
 import React, { useEffect, useState } from "react"
 import { Layout } from "~/components/Layout"
 import SubmitForm from "~/components/SubmitForm"
-
-interface Form {
-  toolName: string
-  toolUrl: string
-  toolDescription: string
-  toolTags: string
-}
-
-interface SuccessError {
-  success: {
-    show: boolean
-    message: string
-  }
-  error: {
-    show: boolean
-    message: string
-  }
-}
+import { submitForm } from "~/helpers/submitForm"
+import { Form, SuccessError } from "~/model/form"
 
 const defaultForm: Form = {
   toolName: "",
@@ -113,7 +97,19 @@ const SubmitPage: React.FC = () => {
       setError("Tool tags missing")
       return
     }
-    setSuccess("Successfully submitted tool!")
+
+    submitForm(form)
+      .then(resp => {
+        console.log("success response", resp)
+        setSuccess("Successfully submitted tool!")
+        setForm(defaultForm)
+        return
+      })
+      .catch(err => {
+        console.error(err)
+        setError("Unable to submit tool")
+        return
+      })
     return
   }
 
