@@ -3,6 +3,9 @@ const data = require("../static/data.json")
 
 // Checks the data for any duplicates
 function checkForDuplicates(data) {
+  const findDuplicates = arr =>
+    arr.filter((item, index) => arr.indexOf(item) !== index)
+
   //   Get the URL's from the data
   const urls = data.map(item => item.url)
   //   Find duplicates in the urls
@@ -52,7 +55,7 @@ if (error) {
 
 console.log("😎 Checking for Duplicates")
 
-const { duplicatesFound, duplicates } = checkForDuplicates(data)
+const { duplicatesFound, duplicates } = checkForDuplicates(data.tools)
 
 if (duplicatesFound) {
   console.log("❌  Duplicates Found in Data")

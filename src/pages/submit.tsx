@@ -136,10 +136,7 @@ const SubmitPage: React.FC = () => {
             >
               here
             </a>
-            . You can find instructions for opening a pull request{" "}
-            <a className="text-blue-600 font-bold hover:underline" href="#">
-              here
-            </a>
+            .
           </p>
         </div>
         <div className="py-5">
