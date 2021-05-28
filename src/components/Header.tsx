@@ -1,37 +1,46 @@
 import React from "react"
 import { navigate } from "gatsby"
-import { ISSUE_LINK } from "~/contants/links"
+import SearchBar from "./SearchBar"
+import { DEFAULT_HEADER_TEXT } from "~/contants/header"
+
 interface Props {
-  headerText: string
-  subheaderText: string
   hideSubmitButton?: boolean
-  customSubheader?: () => JSX.Element
+  hideSearchBar?: boolean
+  headerText?: string
+  subheaderText?: string
 }
 
 const Header: React.FC<Props> = ({
-  hideSubmitButton = false,
+  hideSubmitButton,
   headerText,
   subheaderText,
-  customSubheader,
+  hideSearchBar,
 }) => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center sm:px-2 md:px-12">
       <div className="pt-12">
-        <h1 className="text-5xl font-bold">{headerText}</h1>
-        {customSubheader ? (
-          customSubheader()
-        ) : (
+        <h1 className="text-5xl font-bold">
+          {headerText ?? DEFAULT_HEADER_TEXT}
+        </h1>
+        {subheaderText && (
           <p className="text-lg py-2 max-w-lg">{subheaderText}</p>
         )}
       </div>
-      {!hideSubmitButton && (
-        <button
-          onClick={() => navigate(ISSUE_LINK)}
-          className="p-4 rounded shadow bg-blue-500 text-white font-bold text-lg"
-        >
-          Submit a Devtool
-        </button>
-      )}
+      <div className="flex flex-col md:flex-row-reverse items-center">
+        {!hideSubmitButton && (
+          <button
+            onClick={() => navigate("/submit")}
+            className="py-2 px-4 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
+          >
+            Submit a Devtool
+          </button>
+        )}
+        {!hideSearchBar && (
+          <div className="px-5 py-3">
+            <SearchBar />
+          </div>
+        )}
+      </div>
     </div>
   )
 }
