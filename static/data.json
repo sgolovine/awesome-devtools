@@ -1139,6 +1139,18 @@
       "description": "The web's most popular icon set and toolkit",
       "url": "https://fontawesome.com/",
       "tags": ["SVG", "Icons"]
+    },
+    {
+      "name": "Figma",
+      "description": "Figma brings your teams together to design better products from start to finish.",
+      "url": "https://www.figma.com/",
+      "tags": ["Design", "Utilities"]
+    },
+    {
+      "name": "Mastershot",
+      "description": "Free browser-based video editor. No watermarks and Full HD exports.",
+      "url": "https://mastershot.app",
+      "tags": ["Video Editor", "Utilities"]
     }
   ]
 }
