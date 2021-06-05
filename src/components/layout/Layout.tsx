@@ -51,7 +51,12 @@ export const Layout: React.FC<Props> = ({ children, hideControls = false }) => {
     <div className="max-w-7xl mx-auto">
       <header className="py-5 text-center">
         {/* Main header */}
-        <h1 className="text-4xl font-bold pb-5">Awesome Devtools</h1>
+        <h1
+          style={{ fontFamily: "Lobster" }}
+          className="text-5xl font-bold pb-5 text-gray-800"
+        >
+          Awesome Devtools
+        </h1>
         <p>A collection of awesome devtools from around the internet</p>
 
         {/* Tag Cloud */}
