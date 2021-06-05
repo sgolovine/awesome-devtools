@@ -1,6 +1,7 @@
-import React, { ReactNode } from "react"
+import React, { ReactNode, useState } from "react"
 import Header from "./Header"
 import Footer from "./Footer"
+import SubmitModal from "../submit/SubmitModal"
 
 interface Props {
   children: ReactNode
@@ -17,19 +18,24 @@ export const Layout: React.FC<Props> = ({
   hideSearchBar,
   headerText,
   subheaderText,
-}) => (
-  <div>
-    <header>
-      <Header
-        hideSearchBar={hideSearchBar}
-        hideSubmitButton={hideSubmitButton}
-        headerText={headerText}
-        subheaderText={subheaderText}
-      />
-    </header>
-    <main className="px-12 py-6">{children}</main>
-    <footer>
-      <Footer />
-    </footer>
-  </div>
-)
+}) => {
+  const [modalOpen, setModalOpen] = useState<boolean>(false)
+  return (
+    <div>
+      <header>
+        <Header
+          onSubmitPress={() => setModalOpen(true)}
+          hideSearchBar={hideSearchBar}
+          hideSubmitButton={hideSubmitButton}
+          headerText={headerText}
+          subheaderText={subheaderText}
+        />
+      </header>
+      <main className="px-12 py-6">{children}</main>
+      <footer>
+        <Footer />
+      </footer>
+      <SubmitModal open={modalOpen} onClose={() => setModalOpen(false)} />
+    </div>
+  )
+}
