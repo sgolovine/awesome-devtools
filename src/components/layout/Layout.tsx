@@ -4,7 +4,11 @@ import SubmitModal from "../submit/SubmitModal"
 import TagCloud from "./TagCloud"
 import { SearchContext } from "~/context/SearchContext"
 
-export const Layout: React.FC = ({ children }) => {
+interface Props {
+  hideControls?: boolean
+}
+
+export const Layout: React.FC<Props> = ({ children, hideControls = false }) => {
   const [modalOpen, setModalOpen] = useState<boolean>(false)
   const {
     tags,
@@ -27,7 +31,7 @@ export const Layout: React.FC = ({ children }) => {
   )
 
   const renderSearchAndSubmit = () => (
-    <div className="px-12 mx-auto flex flex-row">
+    <div className="px-12 mx-auto flex flex-col md:flex-row">
       <input
         value={searchInput}
         onChange={e => setSearch(e.target.value)}
@@ -36,7 +40,7 @@ export const Layout: React.FC = ({ children }) => {
       />
       <button
         onClick={() => setModalOpen(true)}
-        className="py-2 px-4 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
+        className="py-2 px-4 mt-2 md:mt-0 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
       >
         Submit a Devtool
       </button>
@@ -51,10 +55,10 @@ export const Layout: React.FC = ({ children }) => {
         <p>A collection of awesome devtools from around the internet</p>
 
         {/* Tag Cloud */}
-        {renderTagCloud()}
+        {!hideControls && renderTagCloud()}
 
         {/* Search & Submit */}
-        {renderSearchAndSubmit()}
+        {!hideControls && renderSearchAndSubmit()}
       </header>
 
       {/* Primary Content */}
