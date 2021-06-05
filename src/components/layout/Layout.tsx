@@ -1,37 +1,75 @@
-import React, { ReactNode, useState } from "react"
-import Header from "./Header"
+import React, { useContext, useState } from "react"
 import Footer from "./Footer"
 import SubmitModal from "../submit/SubmitModal"
+import TagCloud from "./TagCloud"
+import { SearchContext } from "~/context/SearchContext"
 
 interface Props {
-  children: ReactNode
-  hideSubmitButton?: boolean
-  hideSearchBar?: boolean
-  headerText?: string
-  subheaderText?: string
-  customSubheader?: () => JSX.Element
+  hideControls?: boolean
 }
 
-export const Layout: React.FC<Props> = ({
-  children,
-  hideSubmitButton,
-  hideSearchBar,
-  headerText,
-  subheaderText,
-}) => {
+export const Layout: React.FC<Props> = ({ children, hideControls = false }) => {
   const [modalOpen, setModalOpen] = useState<boolean>(false)
+  const {
+    tags,
+    activeTag,
+    setActiveTag,
+    clearTag,
+    searchInput,
+    setSearch,
+  } = useContext(SearchContext)
+
+  const renderTagCloud = () => (
+    <div className="py-5 mx-auto">
+      <TagCloud
+        tags={tags}
+        activeTag={activeTag}
+        toggleTag={setActiveTag}
+        clearTag={clearTag}
+      />
+    </div>
+  )
+
+  const renderSearchAndSubmit = () => (
+    <div className="px-12 mx-auto flex flex-col md:flex-row">
+      <input
+        value={searchInput}
+        onChange={e => setSearch(e.target.value)}
+        placeholder="Search for devtools..."
+        className="border rounded shadow p-2 flex-grow mr-2 text-lg"
+      />
+      <button
+        onClick={() => setModalOpen(true)}
+        className="py-2 px-4 mt-2 md:mt-0 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
+      >
+        Submit a Devtool
+      </button>
+    </div>
+  )
+
   return (
-    <div>
-      <header>
-        <Header
-          onSubmitPress={() => setModalOpen(true)}
-          hideSearchBar={hideSearchBar}
-          hideSubmitButton={hideSubmitButton}
-          headerText={headerText}
-          subheaderText={subheaderText}
-        />
+    <div className="max-w-7xl mx-auto">
+      <header className="py-5 text-center">
+        {/* Main header */}
+        <h1
+          style={{ fontFamily: "Lobster" }}
+          className="text-5xl font-bold pb-5 text-gray-800"
+        >
+          Awesome Devtools
+        </h1>
+        <p>A collection of awesome devtools from around the internet</p>
+
+        {/* Tag Cloud */}
+        {!hideControls && renderTagCloud()}
+
+        {/* Search & Submit */}
+        {!hideControls && renderSearchAndSubmit()}
       </header>
-      <main className="px-12 py-6">{children}</main>
+
+      {/* Primary Content */}
+      <main className="mx-auto">{children}</main>
+
+      {/* Footer */}
       <footer>
         <Footer />
       </footer>

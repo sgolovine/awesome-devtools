@@ -6,10 +6,13 @@ import { Tool } from "~/model/tool"
 const _filterOnSearchTerm = (tools: Tool[], searchTerm: string): Tool[] => {
   const regex = new RegExp(String.raw`${searchTerm}`)
   return tools.filter(tool => {
-    if (tool.name.toLowerCase().match(regex)) {
+    if (tool.name.match(regex) || tool.name.toLowerCase().match(regex)) {
       return tool
     }
-    if (tool.description.toLowerCase().match(regex)) {
+    if (
+      tool.description.match(regex) ||
+      tool.description.toLowerCase().match(regex)
+    ) {
       return tool
     }
     if (tool.url.match(regex)) {
