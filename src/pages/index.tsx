@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Card from "~/components/card/Card"
 import { Tool } from "~/model/tool"
 import { SearchContext } from "~/context/SearchContext"
-import TagCloud from "~/components/TagCloud"
+import TagCloud from "~/components/layout/TagCloud"
 
 const IndexPage: React.FC = () => {
   const query = useStaticQuery(graphql`
