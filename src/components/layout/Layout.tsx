@@ -1,8 +1,7 @@
 import React, { ReactNode, useState } from "react"
 import Header from "./Header"
 import Footer from "./Footer"
-import Modal from "react-modal"
-import SubmitModal from "./SubmitModal"
+import SubmitModal from "../submit/SubmitModal"
 
 interface Props {
   children: ReactNode

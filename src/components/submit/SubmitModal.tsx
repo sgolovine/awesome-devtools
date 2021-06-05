@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Modal from "react-modal"
-import SubmitForm from "../SubmitForm"
+import SubmitForm from "./SubmitForm"
 import { submitForm } from "~/helpers/submitForm"
 import { Form, SuccessError } from "~/model/form"
 import CloseIcon from "../icons/CloseIcon"
@@ -148,7 +148,11 @@ const SubmitModal: React.FC<Props> = ({ open, onClose }) => {
         </div>
         <p className="text-lg my-3">
           Submit a devtool to be featured on our list. You can submit a tool by
-          filling out the form below or by opening a pull request.
+          filling out the form below or by{" "}
+          <a className="text-blue-600 hover:underline" href="">
+            opening a pull request
+          </a>
+          .
         </p>
         <SubmitForm
           toolName={form.toolName}
