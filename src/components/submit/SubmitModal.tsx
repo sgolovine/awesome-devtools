@@ -149,7 +149,10 @@ const SubmitModal: React.FC<Props> = ({ open, onClose }) => {
         <p className="text-lg my-3">
           Submit a devtool to be featured on our list. You can submit a tool by
           filling out the form below or by{" "}
-          <a className="text-blue-600 hover:underline" href="">
+          <a
+            className="text-blue-600 hover:underline"
+            href="https://github.com/sgolovine/awesome-devtools/"
+          >
             opening a pull request
           </a>
           .
