@@ -85,16 +85,16 @@ const SubmitForm: React.FC<Props> = ({
       </div>
       <div className="flex flex-row">
         <button
-          className="px-4 py-2 rounded shadow bg-blue-400 mr-1 text-white font-bold"
+          className="px-4 py-2 rounded shadow bg-blue-500 mr-1 text-white font-bold"
           onClick={onSubmit}
         >
           Submit
         </button>
         <button
-          className="px-4 py-2 rounded shadow bg-red-400 ml-1 text-white font-bold"
+          className="px-4 py-2 rounded shadow bg-red-500 ml-1 text-white font-bold"
           onClick={onClear}
         >
-          Reset
+          Cancel
         </button>
       </div>
     </>

@@ -8,13 +8,13 @@ interface Props {
   hideSearchBar?: boolean
   headerText?: string
   subheaderText?: string
+  onSubmitPress: () => void
 }
 
 const Header: React.FC<Props> = ({
-  hideSubmitButton,
+  onSubmitPress,
   headerText,
   subheaderText,
-  hideSearchBar,
 }) => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center sm:px-2 md:px-12">
@@ -27,19 +27,15 @@ const Header: React.FC<Props> = ({
         )}
       </div>
       <div className="flex flex-col md:flex-row-reverse items-center">
-        {!hideSubmitButton && (
-          <button
-            onClick={() => navigate("/submit")}
-            className="py-2 px-4 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
-          >
-            Submit a Devtool
-          </button>
-        )}
-        {!hideSearchBar && (
-          <div className="px-5 py-3">
-            <SearchBar />
-          </div>
-        )}
+        <button
+          onClick={onSubmitPress}
+          className="py-2 px-4 rounded shadow bg-blue-500 text-white font-bold text-sm md:text-md lg:text-lg"
+        >
+          Submit a Devtool
+        </button>
+        <div className="px-5 py-3">
+          <SearchBar />
+        </div>
       </div>
     </div>
   )
