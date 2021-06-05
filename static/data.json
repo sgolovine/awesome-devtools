@@ -1151,6 +1151,12 @@
       "description": "Free browser-based video editor. No watermarks and Full HD exports.",
       "url": "https://mastershot.app",
       "tags": ["Video Editor", "Utilities"]
+    },
+    {
+      "name": "Reviews",
+      "description": "A terminal UI dashboard to monitor requests for code review across Github repositories.",
+      "url": "https://reviews-cli.dev/",
+      "tags": ["Tools", "Productivity", "Utilities"]
     }
   ]
 }
