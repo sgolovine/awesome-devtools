@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { Layout } from "~/components/Layout"
+import { Layout } from "~/components/layout/Layout"
 import SubmitForm from "~/components/SubmitForm"
 import { submitForm } from "~/helpers/submitForm"
 import { Form, SuccessError } from "~/model/form"

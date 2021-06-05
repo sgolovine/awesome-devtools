@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import { SearchContext } from "~/context/SearchContext"
-import BackspaceIcon from "./icons/Backspace"
+import BackspaceIcon from "../icons/Backspace"
 
 const SearchBar: React.FC = () => {
   const searchContext = useContext(SearchContext)
