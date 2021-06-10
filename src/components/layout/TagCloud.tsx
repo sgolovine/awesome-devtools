@@ -14,7 +14,7 @@ const TagCloud: React.FC<Props> = ({
   clearTag,
 }) => {
   return (
-    <div className="mb-6 max-w-7xl">
+    <div className="mb-6">
       {tags.map((tag: Tag) => {
         const tagActive = tag.name === activeTag?.name
         // TODO: Migrate to classnames

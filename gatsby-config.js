@@ -21,6 +21,14 @@ module.exports = {
         siteUrl: "https://awesomedevtools.com",
       },
     },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        google: {
+          families: ["Lobster"],
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
