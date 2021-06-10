@@ -6,7 +6,7 @@ const Footer: React.FC = () => (
       Made with ❤️ by{" "}
       <a
         className="text-blue-600 hover:underline"
-        href="https://sunnygolovine.com"
+        href="https://sunny.gg/awesome-devtools"
       >
         Sunny Golovine
       </a>
