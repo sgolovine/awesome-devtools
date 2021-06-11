@@ -14,13 +14,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
@@ -37,7 +30,7 @@ module.exports = {
         background_color: `#2f323a`,
         theme_color: `#F3A712`,
         display: `browser`,
-        icon: `src/images/favicon.png`,
+        icon: `static/favicon.png`,
       },
     },
     {

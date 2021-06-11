@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import { SearchContext } from "~/context/SearchContext"
+import { Awesome } from "./icons/Awesome"
 import TagCloud from "./TagCloud"
 
 interface Props {
@@ -28,6 +29,9 @@ export const AboveFold: React.FC<Props> = ({
         >
           Submit a Devtool
         </button>
+      </div>
+      <div className="mx-auto w-72">
+        <Awesome />
       </div>
       <h1
         style={{ fontFamily: "Lobster" }}
