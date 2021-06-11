@@ -56,6 +56,14 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `awesomedevtools.com`,
+        customDomain: `analytics.glvn.co`,
+        runInDevelopment: false,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-typescript`,

@@ -68,3 +68,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+# Prevent yarn.lock from being committed
+# (this project uses it NPM)
+yarn.lock

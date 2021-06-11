@@ -13,6 +13,7 @@
     "gatsby-plugin-manifest": "^3.7.1",
     "gatsby-plugin-matomo": "^0.9.0",
     "gatsby-plugin-offline": "^4.7.1",
+    "gatsby-plugin-plausible": "0.0.7",
     "gatsby-plugin-react-helmet": "^4.5.0",
     "gatsby-plugin-sharp": "^3.4.0",
     "gatsby-plugin-typescript": "^3.4.0",
@@ -36,6 +37,7 @@
     "babel-preset-gatsby": "^1.4.0",
     "gatsby-plugin-postcss": "^4.4.0",
     "joi": "^17.4.0",
+    "patch-package": "^6.4.7",
     "postcss": "^8.2.13",
     "prettier": "2.2.1",
     "tailwindcss": "^2.1.2",
@@ -48,6 +50,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "validate-data": "node ./scripts/validate-schema.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "postinstall": "patch-package"
   }
 }

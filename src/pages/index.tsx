@@ -10,10 +10,10 @@ const IndexPage: React.FC = () => {
   return (
     <Layout>
       <div className="justify-center flex flex-col sm:flex-row flex-nowrap sm:flex-wrap mt-12">
-        {tools.map((tool: Tool) => {
+        {tools.map((tool: Tool, index: number) => {
           return (
             <Card
-              key={tool.name}
+              key={`${tool.name.replace(" ", "-")}-${index}`}
               title={tool.name}
               description={tool.description}
               url={tool.url}
