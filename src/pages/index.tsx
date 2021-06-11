@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { Layout } from "~/components/layout/Layout"
+import { Layout } from "~/components/layout"
 import Card from "~/components/card/Card"
 import { Tool } from "~/model/tool"
 import { SearchContext } from "~/context/SearchContext"
@@ -9,7 +9,7 @@ const IndexPage: React.FC = () => {
 
   return (
     <Layout>
-      <div className="justify-center flex flex-col sm:flex-row flex-nowrap sm:flex-wrap">
+      <div className="justify-center flex flex-col sm:flex-row flex-nowrap sm:flex-wrap mt-12">
         {tools.map((tool: Tool) => {
           return (
             <Card
