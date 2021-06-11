@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Sunny Golovine <sunny@glvn.co>",
   "dependencies": {
+    "classnames": "^2.3.1",
     "faunadb": "^4.2.0",
     "gatsby": "^3.4.0",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",

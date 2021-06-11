@@ -3,7 +3,7 @@ import Modal from "react-modal"
 import SubmitForm from "./SubmitForm"
 import { submitForm } from "~/helpers/submitForm"
 import { Form, SuccessError } from "~/model/form"
-import CloseIcon from "../icons/CloseIcon"
+import CloseIcon from "./icons/CloseIcon"
 
 interface Props {
   open: boolean
@@ -136,7 +136,7 @@ const SubmitModal: React.FC<Props> = ({ open, onClose }) => {
       isOpen={open}
       onRequestClose={handleCloseModal}
       contentLabel="Submit Form"
-      className="max-w-lg border mx-auto mt-64 bg-white p-4 rounded shadow"
+      className="max-w-lg border mx-auto lg:mt-64 bg-white p-4 rounded shadow"
       overlayClassName="fixed inset-0 bg-gray-900 bg-opacity-90"
     >
       <div>

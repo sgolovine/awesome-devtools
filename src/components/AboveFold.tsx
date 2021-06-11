@@ -20,7 +20,15 @@ export const AboveFold: React.FC<Props> = ({
     setSearch,
   } = useContext(SearchContext)
   return (
-    <header className="text-center mt-12">
+    <header className="text-center">
+      <div className="pr-4 pb-12 pt-4 flex flex-row justify-end">
+        <button
+          onClick={openModal}
+          className="py-2 px-4 mt-2 md:mt-0 rounded shadow bg-theme-yellow text-theme-dark font-bold text-sm md:text-md lg:text-lg"
+        >
+          Submit a Devtool
+        </button>
+      </div>
       <h1
         style={{ fontFamily: "Lobster" }}
         className="text-5xl font-bold pb-5 text-theme-yellow"
@@ -40,19 +48,13 @@ export const AboveFold: React.FC<Props> = ({
               clearTag={clearTag}
             />
           </div>
-          <div className="px-12 mx-auto flex flex-col md:flex-row">
+          <div className="px-4 md:px-12 mx-auto flex flex-col md:flex-row">
             <input
               value={searchInput}
               onChange={e => setSearch(e.target.value)}
               placeholder="Search for devtools..."
               className="border rounded shadow p-2 flex-grow mr-2 text-lg bg-theme-dark text-theme-white font-bold"
             />
-            <button
-              onClick={openModal}
-              className="py-2 px-4 mt-2 md:mt-0 rounded shadow bg-theme-yellow text-theme-dark font-bold text-sm md:text-md lg:text-lg"
-            >
-              Submit a Devtool
-            </button>
           </div>
         </>
       )}
