@@ -56,6 +56,7 @@ module.exports = {
         runInDevelopment: false,
       },
     },
+    `gatsby-plugin-preact`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-typescript`,
