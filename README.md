@@ -1,4 +1,4 @@
-<div style="display:flex;flex-direction:column;align-items:center;margin-bottom:50px">
+<div style="display:flex;flex-direction:column;align-items:center;margin-bottom:50px;text-align:center">
   <div style="width:300px">
     <img src="./logo.svg" />
   </div>
@@ -6,19 +6,11 @@
   <p>A collection of awesome devtools from around the internet</p>
 </div>
 
-<div style="display:flex;flex-direction:row">
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/278a13fc-df3d-4590-83fe-a7decd564592/deploy-status)](https://app.netlify.com/sites/awesome-devtools/deploys)
-
-  <div style="width:10px;"></div>
 
 [![Data Validation CI](https://github.com/sgolovine/awesome-devtools/actions/workflows/validation.yaml/badge.svg)](https://github.com/sgolovine/awesome-devtools/actions/workflows/validation.yaml)
 
-  <div style="width:10px;"></div>
-
 [![Test CI](https://github.com/sgolovine/awesome-devtools/actions/workflows/test.yaml/badge.svg)](https://github.com/sgolovine/awesome-devtools/actions/workflows/test.yaml)
-
-</div>
 
 ## Contributing to the list
 
