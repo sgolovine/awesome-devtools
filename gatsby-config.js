@@ -14,21 +14,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-matomo",
-      options: {
-        siteId: "6",
-        matomoUrl: "https://stats.glvn.co",
-        siteUrl: "https://awesomedevtools.com",
-      },
-    },
-    {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
@@ -45,17 +30,26 @@ module.exports = {
         background_color: `#2f323a`,
         theme_color: `#F3A712`,
         display: `browser`,
-        icon: `src/images/favicon.png`,
+        icon: `static/favicon.png`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-offline`,
-    //   options: {
-    //     workboxConfig: {
-    //       globPatterns: [`/src/images/*`],
-    //     },
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        workboxConfig: {
+          globPatterns: [`/src/images/*`],
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `awesomedevtools.com`,
+        customDomain: `analytics.glvn.co`,
+        runInDevelopment: false,
+      },
+    },
+    `gatsby-plugin-preact`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-typescript`,

@@ -1,11 +1,22 @@
-<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:2rem;">
-  <img width="500" src="logo.svg" alt="logo">
-  <a href="https://awesomedevtools.com" style="font-size:2rem;font-weight:bold;">Awesome Devtools</a>
-</div>
+<!-- <div style="display:flex;flex-direction:column;align-items:center;margin-bottom:50px;text-align:center">
+  <div style="width:300px">
+    <img src="./logo.svg" />
+  </div>
+  <h2>Awesome Devtools</h2>
+  <p>A collection of awesome devtools from around the internet</p>
+</div> -->
+
+![logo](./logo.svg)
+
+## Awesome Devtools
 
 A collection of awesome devtools from around the internet
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/278a13fc-df3d-4590-83fe-a7decd564592/deploy-status)](https://app.netlify.com/sites/awesome-devtools/deploys)
+
+[![Data Validation CI](https://github.com/sgolovine/awesome-devtools/actions/workflows/validation.yaml/badge.svg)](https://github.com/sgolovine/awesome-devtools/actions/workflows/validation.yaml)
+
+[![Test CI](https://github.com/sgolovine/awesome-devtools/actions/workflows/test.yaml/badge.svg)](https://github.com/sgolovine/awesome-devtools/actions/workflows/test.yaml)
 
 ## Contributing to the list
 
