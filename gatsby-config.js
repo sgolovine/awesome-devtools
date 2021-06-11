@@ -21,14 +21,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-matomo",
-      options: {
-        siteId: "6",
-        matomoUrl: "https://stats.glvn.co",
-        siteUrl: "https://awesomedevtools.com",
-      },
-    },
-    {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
