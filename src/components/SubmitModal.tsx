@@ -3,7 +3,7 @@ import Modal from "react-modal"
 import SubmitForm from "./SubmitForm"
 import { submitForm } from "~/helpers/submitForm"
 import { Form, SuccessError } from "~/model/form"
-import CloseIcon from "../icons/CloseIcon"
+import CloseIcon from "./icons/CloseIcon"
 
 interface Props {
   open: boolean

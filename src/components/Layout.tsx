@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Footer from "./Footer"
-import SubmitModal from "../submit/SubmitModal"
+import SubmitModal from "./SubmitModal"
 import { AboveFold } from "./AboveFold"
 
 interface Props {

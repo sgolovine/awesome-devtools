@@ -1,3 +1,4 @@
+import classNames from "classnames"
 import React from "react"
 import { Tag } from "~/model/tag"
 
@@ -17,13 +18,26 @@ const TagCloud: React.FC<Props> = ({
     <div className="mb-6 sm:px-4 md:px-12">
       {tags.map((tag: Tag) => {
         const tagActive = tag.name === activeTag?.name
-        // TODO: Migrate to classnames
-        const color = tagActive ? "bg-theme-yellow" : "bg-theme-white"
+
+        const buttonClassnames = classNames(
+          "font-bold",
+          "text-theme-dark",
+          "mx-1",
+          "my-1",
+          "px-2",
+          "py-1",
+          "rounded",
+          "shadow",
+          {
+            "bg-theme-yellow": tagActive,
+            "bg-theme-white": !tagActive,
+          }
+        )
 
         return (
           <button
             onClick={() => (tagActive ? clearTag() : toggleTag(tag))}
-            className={`${color} font-bold text-theme-dark mx-1 my-1 px-2 py-1 rounded shadow`}
+            className={buttonClassnames}
             key={tag.name}
           >
             <span className="flex flex-row items-start">
