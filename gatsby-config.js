@@ -34,14 +34,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        workboxConfig: {
-          globPatterns: [`/src/images/*`],
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-plausible`,
       options: {
         domain: `awesomedevtools.com`,
