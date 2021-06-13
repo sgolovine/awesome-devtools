@@ -854,8 +854,8 @@
     },
     {
       "name": "WindiCSS",
-      "description": "https://windicss.org/",
-      "url": "Next generation utility-first CSS framework.",
+      "description": "Next generation utility-first CSS framework.",
+      "url": "https://windicss.org/",
       "tags": ["CSS Frameworks", "CSS"]
     },
     {
