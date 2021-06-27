@@ -1187,6 +1187,18 @@
       "description": "Monitor your website, server, API, application, service and get notified if your resources have some problems with availability. Upzilla.co notifies you in Slack, Telegram, Messenger, or by email.\nMost excited that you can create and monitor your page for FREE https://www.upzilla.co",
       "url": "https://www.upzilla.co",
       "tags": ["Monitoring", "Utilities", "WebDev"]
+    },
+    {
+      "name": "ScrollReveal",
+      "description": "ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport. It was designed to be robust and flexible, but hopefully you’ll be surprised below at how easy it is to pick up.",
+      "url": "https://scrollrevealjs.org/",
+      "tags": ["Animation", "CSS"],
+    },
+    {
+      "name": "csvbox.io",
+      "description": "csvbox.io a no code, drop-in widget that allows you to accept spreadsheet files from users in minutes. Users can upload files, match columns, validate data all in a few clicks. You receive ready to use data in your app. A better experience for your customers, fewer headaches for your team!",
+      "url": "http://csvbox.io",
+      "tags": ["Importer", "Spreadsheets", "SaaS"]
     }
   ]
 }
