@@ -1165,18 +1165,6 @@
       "tags": ["Tools", "Utilities", "WebDev", "Productivity", "Converters"]
     },
     {
-      "name": "Image to Colors Palette Generator",
-      "description": "Our color palette generator extracts colors from any photo on upload. Then just copy the HEX codes from the color palette app with a simple click!",
-      "url": "https://hexcolor.co/image-to-colors",
-      "tags": ["Colors", "WebDev", "Design"]
-    },
-    {
-      "name": "Blobmaker",
-      "description": "Blobmaker is a free generative design tool made with 💕 by z creative labs, to help you quickly create random, unique, and organic-looking SVG shapes.",
-      "url": "https://www.blobmaker.app/",
-      "tags": ["SVG", "Illustration", "Utilities"]
-    },
-    {
       "name": "Keycode.info",
       "description": "A simple webpage that responds to the key pressed and returns the JavaScript 'on-key pressed' keycode.",
       "url": "https://keycode.info/",
@@ -1192,7 +1180,7 @@
       "name": "ScrollReveal",
       "description": "ScrollReveal is a JavaScript library for easily animating elements as they enter/leave the viewport. It was designed to be robust and flexible, but hopefully you’ll be surprised below at how easy it is to pick up.",
       "url": "https://scrollrevealjs.org/",
-      "tags": ["Animation", "CSS"],
+      "tags": ["Animation", "CSS"]
     },
     {
       "name": "csvbox.io",
