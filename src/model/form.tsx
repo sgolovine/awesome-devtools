@@ -2,7 +2,7 @@ export interface Form {
   toolName: string
   toolUrl: string
   toolDescription: string
-  toolTags: string
+  toolTags: string | string[]
 }
 
 export interface SuccessError {
