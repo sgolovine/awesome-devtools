@@ -1187,6 +1187,12 @@
       "description": "csvbox.io a no code, drop-in widget that allows you to accept spreadsheet files from users in minutes.",
       "url": "http://csvbox.io",
       "tags": ["Importer", "Spreadsheets", "SaaS"]
+    },
+    {
+      "name": "Dyte",
+      "description": "Build powerful live experiences in your product with an all-in-one Video SDK",
+      "url": "http://dyte.io",
+      "tags": ["video sdk", "video api", "CPaaS", "live-streaming"]
     }
   ]
 }
