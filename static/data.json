@@ -1187,6 +1187,12 @@
       "description": "csvbox.io a no code, drop-in widget that allows you to accept spreadsheet files from users in minutes.",
       "url": "http://csvbox.io",
       "tags": ["Importer", "Spreadsheets", "SaaS"]
+    },
+    {
+      "name": "Spiderhash",
+      "description": "Webhook debugging and inspection tool for capturing, replaying, and troubleshooting webhook events.",
+      "url": "https://spiderhash.io/",
+      "tags": ["Webhooks", "API", "Debugging", "Developer Tools"]
     }
   ]
 }
