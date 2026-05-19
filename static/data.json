@@ -1187,6 +1187,12 @@
       "description": "csvbox.io a no code, drop-in widget that allows you to accept spreadsheet files from users in minutes.",
       "url": "http://csvbox.io",
       "tags": ["Importer", "Spreadsheets", "SaaS"]
+    },
+    {
+      "name": "Bulk QR Code Generator for Excel and CSV",
+      "description": "Generate QR codes or Code 128 barcodes from spreadsheet rows, then export ZIP, PDF, or SVG files.",
+      "url": "https://www.bulkqrcodegenerator.art/",
+      "tags": ["QR Code", "Barcode", "Spreadsheets", "Utilities"]
     }
   ]
 }
