@@ -7,6 +7,12 @@
       "tags": ["Awesome", "List", "Tools"]
     },
     {
+      "name": "Agent QA",
+      "description": "Natural-language web and mobile application testing through an npm CLI and MCP server",
+      "url": "https://github.com/vostride/agent-qa",
+      "tags": ["AI", "Utilities", "WebDev"]
+    },
+    {
       "name": "Responsively",
       "description": "A web browser that helps create responsive interfaces",
       "url": "https://responsively.app/",
