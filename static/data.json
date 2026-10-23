@@ -1187,6 +1187,12 @@
       "description": "csvbox.io a no code, drop-in widget that allows you to accept spreadsheet files from users in minutes.",
       "url": "http://csvbox.io",
       "tags": ["Importer", "Spreadsheets", "SaaS"]
+    },
+    {
+      "name": "Flisk",
+      "description": "Generate and run your whole tech stack without the setup pain — one command from an empty folder to a running stack.",
+      "url": "https://flisk.sh",
+      "tags": ["CLI", "DevTools", "Scaffolding", "TypeScript"]
     }
   ]
 }
